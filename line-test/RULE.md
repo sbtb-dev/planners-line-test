@@ -1,0 +1,88 @@
+# The planner's line test: the rule
+
+The test answers one question: can this thing be a line in a media plan, and if so, which one?
+
+The test is general. It is not specific to any one type of media. The [mapping](../mapping/README.md) applies it to items sold as gaming.
+
+## 1. The rule
+
+> Each format goes in the line where the brand buys the same unit from every other seller. A new line earns its place only when being in it predicts the unit, the terms, and the return.
+
+| Sentence | What it does | Problem it answers |
+|---|---|---|
+| First | Keeps each standard unit where it is compared with the same unit from other sellers. | **Price** |
+| Second | Sets the bar for a line that no existing line covers. | **Proof** |
+
+## 2. Reading notes
+
+The notes do not change the rule. They say how to apply it.
+
+1. **Order.** The first sentence applies first. The second sentence applies only to a unit the first cannot place, or to a venue that changes the unit.
+2. **Format and unit.** A unit is a format plus its terms and its currency. A new venue does not change the format. It can change the unit. Attention does not change the unit. Attention is a property of the delivery, and it is compared within the line.
+3. **Two routes.** A line predicts the unit, the terms, and the return in one of two ways:
+   - **Currency:** the same defined event, counted the same way by every seller, by a party that is not the host.
+   - **Record:** terms written in the order before the buy. The terms state the unit, the exposed population, a comparison that separates the brand from the venue, and a verifier.
+4. **Three tests for any boundary.** The boundary sorts items before the buy. The seller does not decide membership. A buy can fail.
+5. **Limit on price.** A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. Only a comparison supports a price for response.
+6. **Burden.** The native line is the default. A seller that claims its venue changes the unit must show the change in currency, terms, or buying.
+
+## 3. Three checks
+
+### 3.1 The exchange check (currency route)
+
+Agreement on a name is not agreement on a unit.
+
+Ask: can a buyer swap 1,000 from seller A for 1,000 from seller B and expect the same thing? If not, the count is not a currency yet.
+
+An impression is a way of counting. It is not a unit. Display, video, and out-of-home each count a different defined thing. All three use the word "impression."
+
+### 3.2 The comparison check (record route)
+
+A count at a branded surface holds two things:
+
+| Kind | What it is |
+|---|---|
+| **Media engagement** | What people do with the venue or the format. The venue produces it with any brand, or with none. |
+| **Brand engagement** | What people do because the brand is there. |
+
+The count does not say how much of it is which.
+
+*Example (invented, for illustration only):* "Players spent seven minutes in the branded zone" can be true. It still does not show that the brand caused any of those minutes.
+
+Media engagement is often accepted as proof for a practical reason. The number is real, it arrives with the buy, and nothing is set beside it.
+
+A comparison has four requirements:
+
+1. **The venue is held constant.** The surface, the mechanic, the role, and the traffic are the same. Only the brand changes.
+2. **It is fixed before the buy.** A comparison chosen after the results are in is not a comparison.
+3. **It is read on everyone the buy reached.** In a venue that people choose to enter, the people who take part already prefer it. A reading of participants alone credits the buy with that preference.
+4. **Only the difference is the brand's.** The rest belongs to the venue.
+
+The question to ask a seller: *"What would this number be with no brand?"*
+
+An unbranded twin is one design that meets the four requirements. It is the same surface in the same role, with no brand. Another design can also meet them, if it holds the venue constant.
+
+**What the check does not say.** It does not say that high attention has no brand effect. Attention may raise brand effect. The check requires the effect to be shown as a difference. It does not allow the effect to be assumed from the size of the count.
+
+### 3.3 The author does not matter
+
+Sellers and trade bodies write most media standards. The test does not ask who wrote a boundary. It asks three things: who counts, whether the boundary sorts, and whether a buy can fail.
+
+## 4. Line, boundary, channel
+
+- A **line** is budget with one owner and one benchmark.
+- A **boundary** is the rule that decides what may enter a line.
+- The test decides whether a proposed line has a boundary that meets the test.
+- **Channel** is a seller's word for where media is made or sold. No rule decides what a channel is, so the test does not use the word. Something can be called a channel and still not be a line. Video is a line and not one channel.
+- The result is "may be a line," never "should be." Whether a brand opens a line is a planning decision.
+
+## 5. On paper and in practice
+
+A description can pass only the first stage.
+
+| Stage | Question | Evidence |
+|---|---|---|
+| **On paper** | Does the proposal state a route, sort items before the buy, keep membership away from the seller, and allow a buy to fail? | The description |
+| **In practice** | Does a counter that is not the host count the same event across sellers? Do the records show a difference from the comparison? | Data, records, audit |
+
+Existing lines are the reference the test places units against. The test does not re-examine them.
