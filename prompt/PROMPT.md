@@ -1,7 +1,7 @@
 <!-- Generated file. Do not edit by hand. Built by scripts/build-prompt.sh. -->
 # Prompt for the planner's line test, applied to gaming media
 
-Version: 0.1.0. Generated file. To change it, edit the source files and run scripts/build-prompt.sh.
+Version: 0.1.1. Generated file. To change it, edit the source files and run scripts/build-prompt.sh.
 
 Paste everything below the line into your model.
 

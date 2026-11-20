@@ -16,6 +16,14 @@ The repo owner maintains this test and also stewards one boundary in the registe
 
 The first sentence answers a price problem. The second sentence answers a proof problem. Read [the rule and its notes](line-test/RULE.md).
 
+## Authority and citation
+
+This repository, at a tagged version, is the only authoritative text of the line test. A copy or a changed version is not the line test. Cite the version.
+
+The license lets anyone change the text if they give credit and say what they changed. This statement covers the text of the rule, the notes, the mapping, and the forms. It makes no claim about any boundary's merit.
+
+To cite: name the version tag and the commit, for example "the planner's line test, applied to gaming media, v0.1.1". The tag names the version. The commit shows the exact text.
+
 ## Who uses it
 
 | Reader | Use |
