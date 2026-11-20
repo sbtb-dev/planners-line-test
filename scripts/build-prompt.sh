@@ -28,7 +28,7 @@ done
   echo
   echo "Version: ${version}. Generated file."
   echo
-  echo "Paste everything below the line into your model."
+  echo "Paste everything below the line into your model. Then paste the offer or the proposed line after it, marked with a label such as INPUT:."
   echo
   echo "---"
   for f in "${sources[@]}"; do

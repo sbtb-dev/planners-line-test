@@ -1,9 +1,9 @@
 <!-- Generated file. Do not edit by hand. -->
 # Prompt for the planner's line test, applied to gaming media
 
-Version: 0.1.2. Generated file.
+Version: 0.1.3. Generated file.
 
-Paste everything below the line into your model.
+Paste everything below the line into your model. Then paste the offer or the proposed line after it, marked with a label such as INPUT:.
 
 ---
 
