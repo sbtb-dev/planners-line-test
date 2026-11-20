@@ -1,6 +1,6 @@
 # The mapping
 
-Version: see [VERSION](../VERSION). Read [how to read it](README.md) first: it defines the support labels and the second rules.
+Read [the notes on scope, support labels, and second rules](README.md) first.
 
 | Sold as gaming | Line | Compare on | Support |
 |---|---|---|---|
@@ -45,7 +45,7 @@ What this means for the mapping:
 
 - An impression of a standard creative on an in-game object is a defined event. It goes to display or video (first row of the table above, and the first row of the table below).
 - The custom counts (visitors, session duration, engagement, UGC equipment, skin retention) are not defined there. They are media engagement counts, and no comparison comes with them.
-- A planner who finds a final text or another document that defines these counts should file a correction (see [CONTRIBUTING.md](../CONTRIBUTING.md)).
+- A planner who finds a final text or another document that defines these counts should report it as a correction.
 
 ## Three places for a brand's presence inside play
 

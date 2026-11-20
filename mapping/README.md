@@ -1,6 +1,6 @@
 # The mapping: how to read it
 
-The mapping applies the [rule](../line-test/RULE.md) to items sold as gaming. The table is in [MAPPING.md](MAPPING.md).
+The mapping applies the [rule](../line-test/RULE.md) to items sold as gaming. The [mapping table](MAPPING.md) gives the results.
 
 ## 1. Scope
 

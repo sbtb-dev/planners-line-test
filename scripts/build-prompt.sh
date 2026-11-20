@@ -23,17 +23,15 @@ for f in "${sources[@]}"; do
 done
 
 {
-  echo "<!-- Generated file. Do not edit by hand. Built by scripts/build-prompt.sh. -->"
+  echo "<!-- Generated file. Do not edit by hand. -->"
   echo "# Prompt for the planner's line test, applied to gaming media"
   echo
-  echo "Version: ${version}. Generated file. To change it, edit the source files and run scripts/build-prompt.sh."
+  echo "Version: ${version}. Generated file."
   echo
   echo "Paste everything below the line into your model."
   echo
   echo "---"
   for f in "${sources[@]}"; do
-    echo
-    echo "<!-- source: ${f} -->"
     echo
     # Pasted text has no files to link to. Turn relative links into plain text.
     sed -E 's/\[([^]]+)\]\(([^h)][^)]*)\)/\1/g' "$f"
