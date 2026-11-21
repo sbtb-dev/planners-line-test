@@ -1,7 +1,7 @@
 <!-- Generated file. Do not edit by hand. -->
 # Prompt for the planner's line test, applied to gaming media
 
-Version: 0.2.1. Generated file.
+Version: 0.2.2. Generated file.
 
 Paste everything below the line into your model. Then paste the offer or the proposed line after it, marked with a label such as INPUT:.
 
@@ -314,7 +314,7 @@ Work the steps in order. Stop at the first step that gives a result.
 
 | Step | Question |
 |---|---|
-| 1 | Do the units already have a line (first sentence of the rule)? If yes: **Placed.** Exception: if the proposal counts its price on an attention measure in place of the format's own price basis, it claims a new price basis (reading notes 2 and 6). Its units are then not the same units. Go to step 2. |
+| 1 | Do the units already have a line (first sentence of the rule)? If yes: **Placed.** Exception: if the proposal counts its price on an attention measure in place of the format's own price basis, it claims a new price basis (reading notes 2 and 6). Its units are then not the same units. Go to step 2. A line named for a venue or an audience, such as a gaming line or a mobile-gaming line, holds units that already have lines. Place each unit in its own line. The result is **Placed**. A claim of higher attention does not change this (reading note 2). A brand's presence inside play is the exception, because it has no native line (mapping). It goes to step 2. |
 | 2 | Does the proposal state a route: a currency or a record? If no: **Not a boundary.** Name what is missing. |
 | 3 | Currency route: does it pass the exchange check, with a counter that is not the host? Record route: does the comparison meet the four requirements? |
 | 4 | Does the boundary sort items before the buy? Does someone other than the seller decide membership? Can a buy fail? |

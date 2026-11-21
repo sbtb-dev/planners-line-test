@@ -6,6 +6,10 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.2.2 — 2026-11-21
+
+Reason: to fix two fixtures (08 and 09) that failed on the prompt in 0.1.3 and in 0.2.1. A proposal for a line named for a venue or an audience, such as "a gaming line" or "a mobile-gaming line", names no unit. The form stopped at step 2 and returned Not a boundary. The form now says that such a line holds units that already have lines, and each unit is Placed in its own line. A brand's presence inside play is the exception, and it goes to step 2. No change to the rule, a note, a mapping row, or a fixture's expected result.
+
 ## 0.2.1 — 2026-11-20
 
 Reason: to record the repo owner's decision on reading note 8 for the final intrinsic in-game guidelines. The conditions that the final version adds (screen coverage, angle, occlusion) adapt the display price basis to the venue. They do not define a different event. The mapping text and the intrinsic worked case now say so. No change to the rule, a note, a row, a form, or a fixture's expected result.
