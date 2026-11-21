@@ -66,7 +66,7 @@ So the line fails the exchange check (3.1). A buyer cannot swap 1,000 units of a
 
 ## Intrinsic in-game display
 
-The IAB, IAB Tech Lab, and MRC publish counting rules for a viewable impression on an in-game object. A seller can claim that a 3D object in a world is a new unit. The format is display. The price basis is a viewable impression. Size, placement, and context are compared within the line (note 7). A standard written for in-game objects does not create a new price basis if it adapts the display price basis to the venue (note 8). Then the first sentence of the rule places the unit in display. If a standard defines a different event, the exchange check (3.1) decides. See the mapping's section on the item with no native line.
+The IAB, IAB Tech Lab, and MRC publish counting rules for a viewable impression on an in-game object. A seller can claim that a 3D object in a world is a new unit. The format is display. The price basis is a viewable impression. Size, placement, and context are compared within the line (note 7). A standard written for in-game objects does not create a new price basis if it adapts the display price basis to the venue (note 8). Then the first sentence of the rule places the unit in display. The final in-game guidelines keep the display viewable test and add conditions for screen coverage, angle, and occlusion. The repo owner reads these as an adaptation, so the unit is placed in display. If a standard defines a different event, the exchange check (3.1) decides. See the mapping's section on the item with no native line.
 
 ## Immersive media
 

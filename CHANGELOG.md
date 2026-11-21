@@ -6,6 +6,10 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.2.1 — 2026-11-20
+
+Reason: to record the repo owner's decision on reading note 8 for the final intrinsic in-game guidelines. The conditions that the final version adds (screen coverage, angle, occlusion) adapt the display price basis to the venue. They do not define a different event. The mapping text and the intrinsic worked case now say so. No change to the rule, a note, a row, a form, or a fixture's expected result.
+
 ## 0.2.0 — 2026-11-20
 
 Reason: to fix cases that the test, as written in 0.1.3, gets wrong or does not cover. The test now reads two things: the format and the price basis. Every other part of a deal is a term, compared within the line. This is a minor change, because it changes how the rule is read. The rule's two sentences do not change. Each change and its reason:
