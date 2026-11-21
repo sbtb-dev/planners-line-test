@@ -17,7 +17,7 @@ Every row states its support.
 | Label | Meaning |
 |---|---|
 | **IAB** | The IAB *Gaming Measurement Framework* (June 2025) puts this format under this media type. |
-| **Test, direct** | The first sentence of the rule places the item with no other input. Sellers outside gaming sell the same unit on the same currency and terms. |
+| **Test, direct** | The first sentence of the rule places the item with no other input. Sellers outside gaming sell the same unit: the same format on the same price basis. |
 | **Test, after a second rule** | Another rule must first say which unit the item is. The test then places that unit. |
 | **Test for the line, practice for the method** | The test gives the line. "By parts" is a comparison method from ordinary practice. |
 | **Extension** | The item is a service, not a media unit. The rule's logic applies, but its words do not cover it. |
@@ -26,8 +26,10 @@ Every row states its support.
 ## 3. Second rules
 
 - **Performs-the-message.** In a live stream, if the creator performs the brand's message, the item is creator. If the brand's graphic is inserted without the creator's performance, it is display.
-- **Terms of the buy.** A playable bought per install is performance. A playable bought on impressions or completed plays is display or video.
-- **Targeting is not a unit.** An audience segment changes neither the format nor the unit (reading note 2).
+- **Price basis of the buy.** A playable bought per install is performance. A playable bought on impressions or completed plays is display or video.
+- **Targeting is not a unit.** An audience segment changes neither the format nor the unit (reading note 2). It applies to a gaming audience segment sold on another line, and to a retailer's offsite media sold with its gaming audience data.
+- **Payments, not deal names.** Each payment is placed by what it buys (rule, section 6.1).
+- **Payment in kind.** Media the brand gives as payment is listed as part of the price (rule, section 6.3).
 
 ## 4. Each "Test, direct" row rests on a fact
 
@@ -40,5 +42,6 @@ The IAB rows match the IAB's position as published in June 2025. The mapping doe
 ## 6. Sources used by the mapping
 
 - IAB, *Gaming Measurement Framework*, June 2025. It has display, video, audio, and custom matrices. Read on 19 November 2026. <https://www.iab.com/guidelines/gaming-measurement-framework/>
-- IAB, IAB Tech Lab, and MRC, *Intrinsic In-Game Advertising Measurement Guidelines 2.0*. The repo owner read the public-comment version, released 14 June 2022, from a PDF copy. No final version was read.
+- IAB, IAB Tech Lab, and MRC, *Intrinsic In-Game Advertising Measurement Guidelines 2.0*. The repo owner read the public-comment version, released 14 June 2022, from a PDF copy. No final version had been read at that time. A final version is listed in the next line.
+- IAB, IAB Tech Lab, and MRC, *Intrinsic In-Game Advertising Measurement Guidelines 2.0*, final version, updated August 2022 (file name ends 08.31.2022). Read on 20 November 2026. <https://www.iab.com/wp-content/uploads/2022/08/In-Game-Advertising-Measurment-Guidelines_08.31.2022.pdf>
 - MRC, standards and guidelines. <https://www.mediaratingcouncil.org/standards-and-guidelines>

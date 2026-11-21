@@ -6,7 +6,7 @@ Work the steps in order. Stop at the first step that gives a result.
 
 | Step | Question |
 |---|---|
-| 1 | Do the units already have a line (first sentence of the rule)? If yes: **Placed.** |
+| 1 | Do the units already have a line (first sentence of the rule)? If yes: **Placed.** Exception: if the proposal counts its price on an attention measure in place of the format's own price basis, it claims a new price basis (reading notes 2 and 6). Its units are then not the same units. Go to step 2. |
 | 2 | Does the proposal state a route: a currency or a record? If no: **Not a boundary.** Name what is missing. |
 | 3 | Currency route: does it pass the exchange check, with a counter that is not the host? Record route: does the comparison meet the four requirements? |
 | 4 | Does the boundary sort items before the buy? Does someone other than the seller decide membership? Can a buy fail? |

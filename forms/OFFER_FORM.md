@@ -5,14 +5,15 @@ Use this form for any item or market move that is sold on a label. Fill it in fr
 | Part | What it says |
 |---|---|
 | **1. What it is** | The parts in the offer, item by item |
-| **2. Where each part goes** | Its line and what to compare it with. Cite the mapping row or the reading note. Any attention claim is compared in that line. |
+| **2. Where each part goes** | Its line and what to compare it with. Cite the mapping row, the reading note, or the scope item. Each payment goes to its own line. Any attention claim is compared in that line. |
 | **3. What has no native line** | Which route the offer states: a currency, a record, or neither. Any engagement count is labeled media engagement unless a comparison comes with it. |
-| **4. What to confirm** | Missing units, currencies, and terms, and claims to check with the seller |
+| **4. What to confirm** | Missing units, price bases, currencies, and terms, and claims to check with the seller |
 
 Rules for the form:
 
-- Cite a mapping row or a reading note for every placement. If none applies, write "unplaced" and say what information is missing.
-- Do not supply a unit, currency, or term that the seller did not state. List it under part 4.
+- Cite a mapping row, a reading note, or a scope item for every placement. If none applies, write "unplaced" and say what information is missing.
+- Place each payment by what it buys, not by the name of the deal (rule, section 6.1). If a part is outside the test, write "outside the test" and cite the scope item.
+- Do not supply a unit, price basis, currency, or term that the seller did not state. List it under part 4.
 - Give no price, no recommendation, and no ranking of sellers.
 
 ## Filled example
@@ -36,7 +37,7 @@ The offer below is generic. It is written in a seller's voice, and every fact in
 
 | # | Line | Compare with | Cite |
 |---|---|---|---|
-| 1 | Retail media | That retailer's other units, and other retailers' units | Mapping row: retailer placements and hubs |
+| 1 | Retail media | That retailer's other onsite units, and other retailers' onsite units | Mapping row: a retailer's onsite placements and hubs |
 | 2 | Creator | The creator line's units | Mapping row: creator package (second rule: performs-the-message) |
 | 3 | Social | The social line's units | Mapping row: paid social inside a package |
 | 4 | Promotions | Cost per entry or redemption | Mapping row: sweepstakes, codes, sampling |
@@ -51,7 +52,7 @@ Nothing in this offer is a brand's presence inside play. Route stated: not appli
 
 **4. What to confirm**
 
-- The unit and the currency for part 1 (impressions? viewable? by whom counted?).
+- The unit, the price basis, and the currency for part 1 (impressions? viewable? by whom counted?).
 - Whether the creator performs the brand's message in part 2.
 - The unit and the terms for part 3.
 - The entry or redemption terms for part 4.

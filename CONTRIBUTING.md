@@ -6,10 +6,11 @@ Anyone can propose a change. Rows and boundaries are accepted or returned on sta
 
 Use the issue template "Propose a mapping row." State:
 
-1. **The unit.** What is the item, in plain words?
-2. **The currency.** What is counted, and by whom?
-3. **The terms.** How is it bought?
-4. **Who else sells it.** Name at least one seller outside gaming that sells the same unit on the same currency and terms, or say that none does.
+1. **The unit.** What is the item, in plain words? Name its format.
+2. **The price basis.** What is the price counted on?
+3. **The currency.** If the price basis is a counted event, who counts it? Is that party not the host?
+4. **The terms.** How is it bought? Terms are compared within the line. They do not change the unit.
+5. **Who else sells it.** Name at least one seller outside gaming that sells the same unit: the same format on the same price basis. Or say that none does.
 
 A new row is a patch. It needs a support label from the [mapping README](mapping/README.md).
 
