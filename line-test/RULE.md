@@ -18,13 +18,15 @@ The test is general. It is not specific to any one type of media. The [mapping](
 The notes do not change the rule. They say how to apply it.
 
 1. **Order.** The first sentence applies first. The second sentence applies only to a unit the first cannot place, or to a venue that changes the unit.
-2. **Format and unit.** A unit is a format plus its terms and its currency. A new venue does not change the format. It can change the unit. Attention does not change the unit. Attention is a property of the delivery, and it is compared within the line.
+2. **Format and unit.** A unit is a format plus its price basis: what is shown, and what the price is counted on. A new venue does not change the format. It changes the unit only if it changes the price basis. Deal terms do not change the unit. Route, timing, guarantees, fees, and bundling are deal terms, and they are compared within the line. A line can predict its terms, but a term alone does not make a new unit. Attention does not change the unit. Attention is a property of the delivery, and it is compared within the line.
 3. **Two routes.** A line predicts the unit, the terms, and the return in one of two ways:
    - **Currency:** the same defined event, counted the same way by every seller, by a party that is not the host.
-   - **Record:** terms written in the order before the buy. The terms state the unit, the exposed population, a comparison that separates the brand from the venue, and a verifier.
+   - **Record:** conditions written in the order before the buy. The conditions state the unit, the exposed population, a comparison that separates the brand from the venue, and a verifier.
 4. **Three tests for any boundary.** The boundary sorts items before the buy. The seller does not decide membership. A buy can fail.
 5. **Limit on price.** A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. Only a comparison supports a price for response.
-6. **Burden.** The native line is the default. A seller that claims its venue changes the unit must show the change in currency, terms, or buying.
+6. **Burden.** The native line is the default. A seller that claims its venue changes the unit must show the change in the price basis.
+7. **Same unit.** Two units are the same unit when they have the same format and the same price basis. Differences in size, placement, or context are compared within the line. A seller that claims such a difference makes a new unit carries the burden in note 6.
+8. **Measurement standards.** A measurement standard that adapts an existing price basis to a venue does not create a new price basis. A standard that defines a different event can. The exchange check (3.1) decides which.
 
 ## 3. Three checks
 
@@ -53,7 +55,7 @@ Media engagement is often accepted as proof for a practical reason. The number i
 
 A comparison has four requirements:
 
-1. **The venue is held constant.** The surface, the mechanic, the role, and the traffic are the same. Only the brand changes.
+1. **The venue is held constant.** The surface, the mechanic, the role, and the traffic are the same. Only the brand changes. A reward given only where the brand appears is a second change, and it breaks this requirement.
 2. **It is fixed before the buy.** A comparison chosen after the results are in is not a comparison.
 3. **It is read on everyone the buy reached.** In a venue that people choose to enter, the people who take part already prefer it. A reading of participants alone credits the buy with that preference.
 4. **Only the difference is the brand's.** The rest belongs to the venue.
@@ -85,4 +87,15 @@ A description can pass only the first stage.
 | **On paper** | Does the proposal state a route, sort items before the buy, keep membership away from the seller, and allow a buy to fail? | The description |
 | **In practice** | Does a counter that is not the host count the same event across sellers? Do the records show a difference from the comparison? | Data, records, audit |
 
-Existing lines are the reference the test places units against. The test does not re-examine them.
+Existing lines are the reference the test places units against. The test does not re-examine them. Some existing lines are organized by route or by data, not by unit. The test does not re-examine them. It also does not accept a new line on the same basis.
+
+Law can stop a route in practice. For example, rules on data about children can prevent a record. The test does not judge compliance. A route that cannot be run lawfully does not pass in practice.
+
+## 6. Scope
+
+1. **Payments, not deal names.** The test applies to each payment the brand makes, by what the payment buys. A deal's name does not decide. One deal can hold several payments, and each payment goes to its own line.
+2. **Money paid to the brand.** Where the brand is paid, the item is outside the test. Licensing income, and a share of sales of branded goods, are examples.
+3. **Payment in kind.** Where the brand pays with its own media or assets, the media it gives is listed as part of the price. It is not free.
+4. **Owned surfaces.** Where the brand builds and runs the surface, no seller exists. The build is production. The media that brings people to the surface goes to that media's own line. For reading note 4, the party that builds and runs the surface takes the seller's place, so it does not decide membership.
+5. **Collaborations with no media buy.** A collaboration between two owners of entertainment properties, where neither party buys media, is outside the test.
+6. **Commitments before units.** A commitment of money to a seller before the units are named cannot be placed. It is unplaced until the seller names the units.

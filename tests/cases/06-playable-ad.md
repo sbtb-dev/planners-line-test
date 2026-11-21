@@ -8,6 +8,6 @@
 
 ## Expected result
 
-- Performance, by the terms of the buy (second rule: terms of the buy).
+- Performance, by the price basis of the buy (second rule: price basis of the buy).
 - Compare on cost per install against other performance units.
 - Note the IAB lists playables under Custom. The test's result stands.

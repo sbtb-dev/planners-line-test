@@ -34,3 +34,14 @@ These fixtures check that the [prompt](../prompt/PROMPT.md) gives the expected r
 | [11](cases/11-in-world-impression-platform-count.md) | Proposed line |
 | [12](cases/12-in-world-impression-independent-counter.md) | Proposed line |
 | [13](cases/13-instruction-in-offer.md) | Offer |
+| [14](cases/14-offsite-retail-media.md) | Offer |
+| [15](cases/15-license-package.md) | Offer |
+| [16](cases/16-publisher-pays-brand.md) | Offer |
+| [17](cases/17-presence-for-brand-media.md) | Offer |
+| [18](cases/18-budget-commitment.md) | Offer |
+| [19](cases/19-promoted-listing.md) | Offer |
+| [20](cases/20-gaming-attention-line.md) | Proposed line |
+| [21](cases/21-cross-media-attention-line.md) | Proposed line |
+| [22](cases/22-branded-quest.md) | Proposed line |
+| [23](cases/23-3d-billboard-unit.md) | Proposed line |
+| [24](cases/24-brand-owned-game.md) | Offer |

@@ -6,13 +6,15 @@ labels: mapping-row
 
 **Sold as** (the item, as a seller words it)
 
-**The unit**
+**The unit** (the format, in plain words)
 
-**The currency** (what is counted, and by whom)
+**The price basis** (what the price is counted on)
 
-**The terms** (how it is bought)
+**The currency** (if the price basis is a counted event: what is counted, and by whom)
 
-**Who else sells it** (name a seller outside gaming that sells the same unit, or say none does)
+**The terms** (how it is bought; terms are compared within the line and do not change the unit)
+
+**Who else sells it** (name a seller outside gaming that sells the same unit: the same format on the same price basis, or say none does)
 
 **Line, and what to compare it with**
 
