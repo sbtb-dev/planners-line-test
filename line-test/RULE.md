@@ -27,6 +27,7 @@ The notes do not change the rule. They say how to apply it.
 6. **Burden.** The native line is the default. A seller that claims its venue changes the unit must show the change in the price basis.
 7. **Same unit.** Two units are the same unit when they have the same format and the same price basis. Differences in size, placement, or context are compared within the line. A seller that claims such a difference makes a new unit carries the burden in note 6.
 8. **Measurement standards.** A measurement standard that adapts an existing price basis to a venue does not create a new price basis. A standard that defines a different event can. The exchange check (3.1) decides which.
+9. **A price basis that is not the format's own.** A seller can count the price of a format on a measure other than the price basis that format has in its line. The measure can be attention, time, or any other. This claims a new price basis (notes 2 and 6), whatever the seller calls it. The unit is then not the same unit (note 7), so the first sentence does not place it. Name the format. State that the price basis differs. Then apply the second sentence: the new unit needs a currency or a record. A score or a measure that only adds to a unit is a property of the delivery (note 2). Note 9 applies only when the price itself is counted on the other measure.
 
 ## 3. Three checks
 

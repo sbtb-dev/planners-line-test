@@ -11,6 +11,7 @@ Each case applies the [rule](RULE.md). Cases marked "hypothetical" are invented 
 | **An in-world impression with an independent counter** (hypothetical) | A brand's presence inside a world | One defined event, counted by a party that is not the host | A boundary on paper. It returns exposure, and note 5 limits its price to that. |
 | **The performance line** | Many formats | One price basis: an action | An existing line. It shows that a line can be defined by its price basis across formats. |
 | **A gaming attention line** | Display, video, and audio in games | The same units, with an attention measure | Placed. Attention is a property of delivery (note 2). A higher score earns a higher price within the line. It does not make a new unit (notes 6 and 7). |
+| **A display unit priced on time** (hypothetical) | Display on an in-game object | A price per player-minute, in place of the display price basis | The unit is not placed in display (notes 7 and 9). No route is stated. See below. |
 | **A cross-media line priced on attention** | Many formats | A price per unit of attention | Not a boundary. See below. |
 | **Intrinsic in-game display** | Display on an in-game object | Viewable impressions, under a standard written for in-game objects | Placed in display (note 8), if the standard adapts the display price basis. See the mapping's section on the item with no native line. |
 | **Immersive media** | A brand's role inside an environment | Written in the order, read against an unbranded twin | A boundary on paper, by the record route. See the register. |
@@ -55,6 +56,16 @@ A performance line holds many formats: display, video, search, social, and more.
 ## A gaming attention line
 
 Suppose a proposal holds display, video, and audio units in games. Each unit has an attention score. The units are the same units that other sellers sell. Attention is a property of delivery (note 2). A higher score can earn a higher price within the line. It does not change the format or the price basis, so it does not make a new unit (notes 6 and 7). The result is Placed. Each unit goes to its own line.
+
+## A display unit priced on time (hypothetical)
+
+Suppose a seller sells a standard flat creative on a sign in a game world. It prices the sign per player-minute: one minute in which a player is in the district and the sign is in render range. It does not quote a price for views. The host counts the minutes.
+
+The format is display. The price basis is a player-minute. It is not a viewable impression. A buyer cannot swap 1,000 player-minutes for 1,000 viewable impressions. Under notes 7 and 9, this is not the same unit as display. The first sentence does not place it. A seller that states a different price basis plainly makes a claim of a new price basis. It does not meet the burden in note 6 by stating it.
+
+The second sentence then applies. The proposal states no currency, because the host counts. It states no record. For a proposed line, the result is Not a boundary. For an offer, the unit is unplaced. The answer names the format (display) and says that the price basis differs. It lists under "what to confirm" whether the seller also counts viewable impressions for the sign.
+
+The sign is a standard creative in a slot. It is not a brand's presence inside play. A different price basis does not change that.
 
 ## A cross-media line priced on attention
 

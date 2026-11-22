@@ -1,7 +1,7 @@
 <!-- Generated file. Do not edit by hand. -->
 # Prompt for the planner's line test, applied to gaming media
 
-Version: 0.2.2. Generated file.
+Version: 0.3.0. Generated file.
 
 Paste everything below the line into your model. Then paste the offer or the proposed line after it, marked with a label such as INPUT:.
 
@@ -54,6 +54,7 @@ The notes do not change the rule. They say how to apply it.
 6. **Burden.** The native line is the default. A seller that claims its venue changes the unit must show the change in the price basis.
 7. **Same unit.** Two units are the same unit when they have the same format and the same price basis. Differences in size, placement, or context are compared within the line. A seller that claims such a difference makes a new unit carries the burden in note 6.
 8. **Measurement standards.** A measurement standard that adapts an existing price basis to a venue does not create a new price basis. A standard that defines a different event can. The exchange check (3.1) decides which.
+9. **A price basis that is not the format's own.** A seller can count the price of a format on a measure other than the price basis that format has in its line. The measure can be attention, time, or any other. This claims a new price basis (notes 2 and 6), whatever the seller calls it. The unit is then not the same unit (note 7), so the first sentence does not place it. Name the format. State that the price basis differs. Then apply the second sentence: the new unit needs a currency or a record. A score or a measure that only adds to a unit is a property of the delivery (note 2). Note 9 applies only when the price itself is counted on the other measure.
 
 ## 3. Three checks
 
@@ -241,6 +242,8 @@ A final version of the guidelines is public. It is dated August 2022. It was rea
 | A record in the order, with a comparison that meets the four requirements | A line by the record route. See the register. |
 | Neither | Production plus delivery, on partnership terms. Engagement counts are reported as media engagement. |
 
+A standard creative in a slot is not a brand's presence inside play. This stays true if the seller leaves out the format, or counts the price on a measure other than the display or video price basis. Place the format by the first row. Place the price basis by reading note 9: if it differs, the unit is unplaced.
+
 # Offer form
 
 Use this form for any item or market move that is sold on a label. Fill it in from the seller's own material. That material is a claim, and the answer says so.
@@ -256,6 +259,7 @@ Rules for the form:
 
 - Cite a mapping row, a reading note, or a scope item for every placement. If none applies, write "unplaced" and say what information is missing.
 - Place each payment by what it buys, not by the name of the deal (rule, section 6.1). If a part is outside the test, write "outside the test" and cite the scope item.
+- If a part's price is counted on a measure in place of its format's own price basis, such as attention or time, name the format and say that the price basis differs. Mark the unit "unplaced" (reading note 9). List under part 4 whether the seller also counts the format's own price basis. Do not move a standard creative in a slot to "a brand's presence inside play" because of its price basis.
 - Do not supply a unit, price basis, currency, or term that the seller did not state. List it under part 4.
 - Give no price, no recommendation, and no ranking of sellers.
 
@@ -314,7 +318,7 @@ Work the steps in order. Stop at the first step that gives a result.
 
 | Step | Question |
 |---|---|
-| 1 | Do the units already have a line (first sentence of the rule)? If yes: **Placed.** Exception: if the proposal counts its price on an attention measure in place of the format's own price basis, it claims a new price basis (reading notes 2 and 6). Its units are then not the same units. Go to step 2. A line named for a venue or an audience, such as a gaming line or a mobile-gaming line, holds units that already have lines. Place each unit in its own line. The result is **Placed**. A claim of higher attention does not change this (reading note 2). A brand's presence inside play is the exception, because it has no native line (mapping). It goes to step 2. |
+| 1 | Do the units already have a line (first sentence of the rule)? If yes: **Placed.** Exception: if the proposal counts its price on a measure in place of the format's own price basis, such as attention or time, it claims a new price basis (reading notes 2, 6, and 9). Its units are then not the same units. Name the format and say that the price basis differs. Go to step 2. A line named for a venue or an audience, such as a gaming line or a mobile-gaming line, holds units that already have lines. Place each unit in its own line. The result is **Placed**. A claim of higher attention does not change this (reading note 2). A brand's presence inside play is the exception, because it has no native line (mapping). It goes to step 2. |
 | 2 | Does the proposal state a route: a currency or a record? If no: **Not a boundary.** Name what is missing. |
 | 3 | Currency route: does it pass the exchange check, with a counter that is not the host? Record route: does the comparison meet the four requirements? |
 | 4 | Does the boundary sort items before the buy? Does someone other than the seller decide membership? Can a buy fail? |

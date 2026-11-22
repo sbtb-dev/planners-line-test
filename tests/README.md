@@ -45,3 +45,5 @@ These fixtures check that the [prompt](../prompt/PROMPT.md) gives the expected r
 | [22](cases/22-branded-quest.md) | Proposed line |
 | [23](cases/23-3d-billboard-unit.md) | Proposed line |
 | [24](cases/24-brand-owned-game.md) | Offer |
+| [25](cases/25-billboard-per-player-minute.md) | Proposed line |
+| [26](cases/26-residency-per-player-minute.md) | Offer |

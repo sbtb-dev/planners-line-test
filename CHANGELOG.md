@@ -6,6 +6,19 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.3.0 — 2026-11-21
+
+Reason: to close a gap that the seeded pressure test of 2026-11-21 found. A seller can sell a standard display unit and count the price on a time measure, such as a player-minute. The step 1 exception named only "an attention measure." The exception was in the proposed-line form only. Two fresh judges gave two different results for the same facts: one placed the unit in display, and one placed it as a brand's presence inside play. This is a change to the reading notes, so it is a minor change. Each change and its reason:
+
+- **Reading note 9 (new).** A price counted on a measure other than the format's own price basis claims a new price basis, whatever the measure is. The unit is then not placed by the first sentence. The second sentence applies. A score that only adds to a unit stays a property of the delivery (note 2). Note 7 already said that the same unit needs the same price basis. Note 6 did not say whether a plain statement of a different price basis meets the burden. Note 9 says it does not.
+- **Proposed-line form, step 1.** The exception now says "a measure ... such as attention or time" and cites note 9. It also says to name the format and say that the price basis differs.
+- **Offer form.** A new rule says the same for an offer. It also says not to move a standard creative in a slot to "a brand's presence inside play" because of its price basis.
+- **Mapping, section "Three places for a brand's presence inside play."** One paragraph says that a standard creative in a slot is not a brand's presence, even if the seller leaves out the format or prices it on another measure.
+- **Worked cases.** New hypothetical case: a display unit priced on time.
+- **Fixtures.** Two new fixtures (25 and 26) cover a proposed line and an offer. No existing expected result changes.
+
+This change follows "reading B": a different price basis means a different unit. The repo owner confirmed this choice on 2026-11-21. The other choice, "reading A", keeps display as the default and puts the price basis under "what to confirm." The cross-model check of the two S1 proposals has not run. If other models split, review this change.
+
 ## 0.2.2 — 2026-11-21
 
 Reason: to fix two fixtures (08 and 09) that failed on the prompt in 0.1.3 and in 0.2.1. A proposal for a line named for a venue or an audience, such as "a gaming line" or "a mobile-gaming line", names no unit. The form stopped at step 2 and returned Not a boundary. The form now says that such a line holds units that already have lines, and each unit is Placed in its own line. A brand's presence inside play is the exception, and it goes to step 2. No change to the rule, a note, a mapping row, or a fixture's expected result.

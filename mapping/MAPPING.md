@@ -63,3 +63,5 @@ A final version of the guidelines is public. It is dated August 2022. It was rea
 | A standard creative in a slot inside the world | Display or video (the first sentence of the rule) |
 | A record in the order, with a comparison that meets the four requirements | A line by the record route. See the [register](../register/BOUNDARIES.md). |
 | Neither | Production plus delivery, on partnership terms. Engagement counts are reported as media engagement. |
+
+A standard creative in a slot is not a brand's presence inside play. This stays true if the seller leaves out the format, or counts the price on a measure other than the display or video price basis. Place the format by the first row. Place the price basis by reading note 9: if it differs, the unit is unplaced.
