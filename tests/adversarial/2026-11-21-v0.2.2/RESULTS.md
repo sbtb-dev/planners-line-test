@@ -28,3 +28,29 @@
 Totals: Hold 18, Break 0, Rule gap 2, Practice only 0.
 
 No attack was graded Break, so no run of two extra judges was needed.
+
+## Follow-up: S1 on the 0.3.0 prompt (branch 0.3.0-price-basis-claim)
+
+Run after the fix in 0.3.0 (reading note 9, forms, mapping). The repo owner confirmed reading B (a different price basis means a different unit).
+
+| Attack | Round | Prompt | Grade | Cause | File |
+|---|---|---|---|---|---|
+| S1 proposal 1 | 2 | 0.3.0 | Hold (reading B) | n/a | [S1](attacks/S1-price-basis-escape.md) |
+| S1 proposal 2 | 2 | 0.3.0 | Hold (reading B) | n/a | [S1](attacks/S1-price-basis-escape.md) |
+
+Cross-model, both proposals: 6 of 6 runs gave the reading B result on 0.3.0. On 0.2.2 the three tiers split (A, B, C). See [cross-model/README.md](cross-model/README.md).
+
+### Fixture checks on 0.3.0
+
+Each fixture ran once, in one model family.
+
+| Fixture | Expected | Result |
+|---|---|---|
+| 06 playable ad | Performance | Pass. Note 9 did not apply (an install is the performance line's own price basis). |
+| 20 gaming attention line | Placed | Pass. Note 9 did not apply (the price is not counted on attention). |
+| 21 cross-media attention line | Not a boundary | Pass |
+| 23 3D billboard unit | Placed in display | Pass |
+| 25 billboard per player-minute | Not a boundary | Pass |
+| 26 residency per player-minute | Unit unplaced, no route | Pass after a fixture fix. The first input did not state the flat creative. The judge correctly did not supply it. The input now says "You supply one flat design." |
+
+The other 20 fixtures were not run on 0.3.0.
