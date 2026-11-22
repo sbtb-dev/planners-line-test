@@ -1,21 +1,33 @@
 # Tests
 
-These fixtures check that the [prompt](../prompt/PROMPT.md) gives the expected result. Each file in [cases/](cases/) has an input and an expected result. The inputs are generic. They name no company.
+These fixtures check that the [prompt](../prompt/PROMPT.md) and the [skill](../skill/planners-line-test/SKILL.md) give the expected result. Each file in [cases/](cases/) has an input and an expected result. The inputs are generic. They name no company.
 
 ## How to run
 
-1. Build the prompt: `scripts/build-prompt.sh`.
+1. Build the prompt and the skill: `scripts/build.sh`.
 2. Open two or three different models.
 3. Paste the contents of `prompt/PROMPT.md` into each model.
 4. For each fixture, paste the "Input" section after the prompt.
 5. Compare each model's answer with the "Expected result."
 
+### With the skill
+
+1. Build the skill: `scripts/build.sh`. The folder is `skill/planners-line-test/`.
+2. Start a fresh session on a host that has the skill installed. Or give a fresh subagent the path of the folder, and tell it to read only files inside it and follow `SKILL.md`.
+3. Give it only the "Input" section of a fixture. Do not give it the expected result.
+4. Record the answer, whether the check script ran, and whether it passed.
+5. Compare the answer with the "Expected result."
+
+Run the same fixtures through the prompt. A skill and a prompt of the same version must give the same result. A difference is a parity failure.
+
 ## How to read the results
 
-- An answer matches when it reaches the same lines, or the same one of the three results, and cites a mapping row or a reading note.
+- An answer matches when it reaches the same lines, or the same one of the three results, and cites a mapping row, a reading note, or another item that the expected result names.
+- A citation matches if it names the expected row, note, or item by name or by its ID. For example, "note 9" and "N-9" match the same item. An answer still matches only if it reaches the same lines, or the same one of the three results.
 - The wording can differ.
 - If the models disagree on a case, the mapping may need a row or a second rule. File a correction (see [CONTRIBUTING.md](../CONTRIBUTING.md)).
 - A model's answer is not a record. Results vary by model.
+- Results of runs are recorded in dated folders under `tests/`, such as `tests/adversarial/` and `tests/runs/`. Do not edit a dated folder after the run.
 
 ## Cases
 

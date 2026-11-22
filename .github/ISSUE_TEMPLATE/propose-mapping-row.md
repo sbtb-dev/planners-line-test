@@ -20,4 +20,6 @@ labels: mapping-row
 
 **Support label** (see mapping/README.md)
 
+A new row gets a new ID. The maintainer assigns it at merge.
+
 **Are you a seller of this item?** If yes, mark your claims as claims.

@@ -6,6 +6,19 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.4.0 — 2026-11-22
+
+Reason: to package the line test as an Agent Skill that runs on hosted platforms with no backend, and to let an answer cite a stable ID. The rule, the reading notes, the checks, the scope section, the forms, and every mapping result do not change. The way answers cite changes, and contributors now edit a data file. So this is a minor change. Each change and its reason:
+
+- **IDs (new).** Every mapping row (M-01 to M-27), reading note (N-1 to N-9), check (C-3.1 to C-3.3), comparison requirement (R-1 to R-4), scope item (S-6.1 to S-6.6), second rule (SR-...), and proposed-line form step (F-1 to F-5) has an ID. A free-text citation can be read two ways. An ID cannot. IDs are never reused and never renumbered. The mapping README (section 7) and CONTRIBUTING say so.
+- **`data/mapping.yaml` (new).** It is the source of the mapping table and lists every ID. `mapping/MAPPING.md` renders the table from it, with a new first column, "ID." The rows are the same as in 0.3.0. The build checks that the IDs in the data file match the IDs in the source text.
+- **Skill (new): `skill/planners-line-test/`.** It holds `SKILL.md`, generated copies of the source files, the data file, a manifest with a SHA-256 hash of each file, and `scripts/check.py`. The script checks the format of an answer and finds no error of fact. A zip of the folder is attached to each release, so an answer can be compared with a public run of the same version.
+- **Build.** `scripts/build.sh` builds the table, the prompt, the skill folder, the manifest, and the zip, and runs the tests of the check script. `scripts/build-prompt.sh` stays and runs the same build, so older instructions still work. `scripts/test_check.py` is new.
+- **Citation instructions.** The prompt instructions, the offer form, and the proposed-line form now say to cite by ID. The filled example in the offer form cites IDs. The text of every result is unchanged.
+- **Fixtures.** The fixtures and their expected results do not change. A citation now matches by name or by ID (tests/README.md).
+- **Glossary.** New terms: skill and ID.
+- **Mapping README.** The sections are not renumbered. The new section on IDs is section 7.
+
 ## 0.3.0 — 2026-11-21
 
 Reason: to close a gap that the seeded pressure test of 2026-11-21 found. A seller can sell a standard display unit and count the price on a time measure, such as a player-minute. The step 1 exception named only "an attention measure." The exception was in the proposed-line form only. Two fresh judges gave two different results for the same facts: one placed the unit in display, and one placed it as a brand's presence inside play. This is a change to the reading notes, so it is a minor change. Each change and its reason:

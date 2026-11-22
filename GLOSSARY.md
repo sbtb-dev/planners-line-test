@@ -22,5 +22,7 @@ Terms are used the same way in every file.
 | **comparison** | A reading that sets the brand's result beside a result with the venue held constant. Only the difference is the brand's. |
 | **record** | Conditions written in the order before the buy: the unit, the exposed population, a comparison, and a verifier. |
 | **verifier** | A party that checks the record. It is not the seller. |
+| **skill** | A folder with a file `SKILL.md`, a data file, and a script. A host loads it to do a task. Here, the skill applies the line test. |
+| **ID** | A fixed label for one mapping row, note, check, requirement, scope item, second rule, or form step, such as M-10. An ID is never reused. |
 | **on paper** | The description of a boundary passes the test. The evidence is the description. |
 | **in practice** | Data, records, or an audit show that the boundary works. |

@@ -1,0 +1,16 @@
+planners-line-test skill manifest
+Version: 0.4.0
+
+SHA-256 of each file:
+0e2748907068fbed0e30b2981ef0934cc2e30c9bfeaf6edd3a9f7730e4e63db2  SKILL.md
+dc1e8535301f0104b38e1f258ee6fd93806497dff402282b4d16ede625dbb220  data/mapping.yaml
+d6c0c7897d9d414f0876d432c9759c2484530bf8290fc3759da12a3af6a924da  references/GLOSSARY.md
+9c1fa24b97ec16095ca1be85249421c307c08a9da963242f4a5eb119722ebe74  references/INSTRUCTIONS.md
+74a31c8dc7d8f281a4181a0a431c93b189e7e0d44dcbffadf14c2376da99bc60  references/MAPPING.md
+db77611d772b6fc670ac501cca0e6c962e93532aa01309e8f2650bbc3e5cf6f4  references/MAPPING_README.md
+fd7dd2e73523353804f85690c88edea21f74c34edb3fced4ebcee6ac50ab818f  references/OFFER_FORM.md
+88f5e1db032fdc81589bf482e28c862450d1e1585ab9a783bbcda6be1ddb1c7d  references/PROPOSED_LINE_FORM.md
+32ee9ebcfd2426ede4d9e5c8d436804f03994e44dee0dbb38571cd6de4e1ce18  references/RULE.md
+37d877357858ae8be50af55fec6dd3fce114375fd62f318bd553aa42b8218c88  scripts/check.py
+
+SHA-256 of the sorted list of file hashes (one hash per line): 62e193f024f315e233ac521117510e14401fcbee6ebcf7a758654b4619682842
