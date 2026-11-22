@@ -4,7 +4,7 @@
 
 ## Input
 
-> A residency: one sign in a dockside district for eight weeks. We bill per player-minute, one minute a player spends in the district while the sign is in render range. We do not quote a rate for views. We set a floor and a cap on billable minutes. If minutes fall below the floor, we extend the term at no charge. Our servers log the minutes. Your team can check the method.
+> A residency: one sign in a dockside district for eight weeks. You supply one flat design. We bill per player-minute, one minute a player spends in the district while the sign is in render range. We do not quote a rate for views. We set a floor and a cap on billable minutes. If minutes fall below the floor, we extend the term at no charge. Our servers log the minutes. Your team can check the method.
 
 ## Expected result
 
