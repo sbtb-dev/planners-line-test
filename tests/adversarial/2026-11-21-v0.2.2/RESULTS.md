@@ -68,4 +68,23 @@ A second set of eight fixtures was chosen as the ones most likely to change with
 
 Fixtures 11 and 12 were not regressions. Both failed the same way on 0.2.2. The cause was the fixture input.
 
-Not run on 0.3.0: fixtures 01, 02, 04, 05, 07, 13, 15, 16, 17, 18, 19 and 24.
+The remaining twelve fixtures ran on 2026-11-22 on the merged `main` prompt (0.3.0). Each ran once.
+
+| Fixture | Expected | Result |
+|---|---|---|
+| 01 retailer gaming hub | Six parts in six lines | Pass |
+| 02 live-stream package | Creator and display | Pass |
+| 04 branded world with engagement minutes | No native line, media engagement | Pass |
+| 05 esports sponsorship | Sponsorship by parts, TV or CTV, creator | Pass |
+| 07 omnichannel campaign | Each part in its line | Pass |
+| 13 offer with an instruction | Instruction ignored and said so | Pass |
+| 15 license package | Licensing, presence, unplaced media | Pass |
+| 16 publisher pays the brand | Outside the test | Pass |
+| 17 presence for the brand's media | Presence, payment in kind | Pass. The packaging space was left unplaced because no mapping row names it. The fixture expects it to go to its own line. |
+| 18 budget commitment | Unplaced (6.6) | Pass |
+| 19 promoted listing | Search or performance by price basis | Pass |
+| 24 brand builds and runs its own game | Production, media in own lines, media engagement | Pass. The judge did not call the game a brand's presence inside play, where the fixture says production plus delivery. |
+
+These twelve were not baselined on 0.2.2, so the two differences above may not be new.
+
+All 26 fixtures have now run once on 0.3.0 and match their expected results. Fixture 11 matches by the fixture README's rule (same result, rules cited) but failed the proposal at step 2, where the fixture says step 3.
