@@ -1,6 +1,6 @@
 # The mapping: how to read it
 
-The mapping applies the [rule](../line-test/RULE.md) to items sold as gaming. The [mapping table](MAPPING.md) gives the results.
+The mapping applies the [rule](../line-test/RULE.md) to items sold as gaming. The [mapping table](MAPPING.md) gives the results. The table is generated from `data/mapping.yaml`.
 
 ## 1. Scope
 
@@ -25,11 +25,11 @@ Every row states its support.
 
 ## 3. Second rules
 
-- **Performs-the-message.** In a live stream, if the creator performs the brand's message, the item is creator. If the brand's graphic is inserted without the creator's performance, it is display.
-- **Price basis of the buy.** A playable bought per install is performance. A playable bought on impressions or completed plays is display or video.
-- **Targeting is not a unit.** An audience segment changes neither the format nor the unit (reading note 2). It applies to a gaming audience segment sold on another line, and to a retailer's offsite media sold with its gaming audience data.
-- **Payments, not deal names.** Each payment is placed by what it buys (rule, section 6.1).
-- **Payment in kind.** Media the brand gives as payment is listed as part of the price (rule, section 6.3).
+- **Performs-the-message.** [SR-performs-message] In a live stream, if the creator performs the brand's message, the item is creator. If the brand's graphic is inserted without the creator's performance, it is display.
+- **Price basis of the buy.** [SR-price-basis] A playable bought per install is performance. A playable bought on impressions or completed plays is display or video.
+- **Targeting is not a unit.** [SR-targeting] An audience segment changes neither the format nor the unit (reading note 2, N-2). It applies to a gaming audience segment sold on another line, and to a retailer's offsite media sold with its gaming audience data.
+- **Payments, not deal names.** [SR-payments] Each payment is placed by what it buys (rule, section 6.1, S-6.1).
+- **Payment in kind.** [SR-in-kind] Media the brand gives as payment is listed as part of the price (rule, section 6.3, S-6.3).
 
 ## 4. Each "Test, direct" row rests on a fact
 
@@ -45,3 +45,21 @@ The IAB rows match the IAB's position as published in June 2025. The mapping doe
 - IAB, IAB Tech Lab, and MRC, *Intrinsic In-Game Advertising Measurement Guidelines 2.0*. The repo owner read the public-comment version, released 14 June 2022, from a PDF copy. No final version had been read at that time. A final version is listed in the next line.
 - IAB, IAB Tech Lab, and MRC, *Intrinsic In-Game Advertising Measurement Guidelines 2.0*, final version, updated August 2022 (file name ends 08.31.2022). Read on 20 November 2026. <https://www.iab.com/wp-content/uploads/2022/08/In-Game-Advertising-Measurment-Guidelines_08.31.2022.pdf>
 - MRC, standards and guidelines. <https://www.mediaratingcouncil.org/standards-and-guidelines>
+
+## 7. IDs
+
+Every mapping row, reading note, check, comparison requirement, scope item, second rule, and form step has an ID. An answer cites the ID.
+
+| Item | ID | Example |
+|---|---|---|
+| Mapping row | M-01, M-02, and so on | M-10 |
+| Reading note | N-1 to N-9 | N-9 |
+| Check | C-3.1 to C-3.3 | C-3.1 |
+| Comparison requirement | R-1 to R-4 | R-1 |
+| Scope item | S-6.1 to S-6.6 | S-6.6 |
+| Second rule | SR- and a name | SR-targeting |
+| Proposed-line form step | F-1 to F-5 | F-2 |
+
+- An ID is never reused. If a row is removed, its ID stays in `data/mapping.yaml` and is marked "retired". No other row gets it.
+- An ID does not change meaning. If a row's result changes, the row keeps its ID. The changelog records the change.
+- Nothing is renumbered. A new row gets the next unused number.
