@@ -4,7 +4,7 @@
 
 ## Input
 
-> A verified in-world impression, sold on two platforms. Each platform counts its own impressions and reports them.
+> We propose a line built on a verified in-world impression, sold on two platforms. Each platform counts its own impressions and reports them.
 
 ## Expected result
 

@@ -16,6 +16,7 @@ Reason: to close a gap that the seeded pressure test of 2026-11-21 found. A sell
 - **Mapping, section "Three places for a brand's presence inside play."** One paragraph says that a standard creative in a slot is not a brand's presence, even if the seller leaves out the format or prices it on another measure.
 - **Worked cases.** New hypothetical case: a display unit priced on time.
 - **Fixtures.** Two new fixtures (25 and 26) cover a proposed line and an offer. No existing expected result changes.
+- **Fixture inputs 11 and 12.** The input of fixture 11 did not say that it is a proposed line, so a judge could take it for an offer. It now begins "We propose a line built on". The input of fixture 12 said that an event is "defined in the proposal" but did not define it, so a judge could not pass it. It now defines one event that differs from the published viewable impression: a branded object is rendered on a player's screen at ten metres or less, with no minimum pixel share and no minimum time. Both gave the same result on 0.2.2 and 0.3.0 before the change, so 0.3.0 did not cause either problem. The expected results do not change.
 
 This change follows "reading B": a different price basis means a different unit. The repo owner confirmed this choice on 2026-11-21. The other choice, "reading A", keeps display as the default and puts the price basis under "what to confirm." The cross-model check of the two S1 proposals has not run. If other models split, review this change.
 
