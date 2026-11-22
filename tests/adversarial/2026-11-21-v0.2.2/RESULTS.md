@@ -28,3 +28,44 @@
 Totals: Hold 18, Break 0, Rule gap 2, Practice only 0.
 
 No attack was graded Break, so no run of two extra judges was needed.
+
+## Follow-up: S1 on the 0.3.0 prompt (branch 0.3.0-price-basis-claim)
+
+Run after the fix in 0.3.0 (reading note 9, forms, mapping). The repo owner confirmed reading B (a different price basis means a different unit).
+
+| Attack | Round | Prompt | Grade | Cause | File |
+|---|---|---|---|---|---|
+| S1 proposal 1 | 2 | 0.3.0 | Hold (reading B) | n/a | [S1](attacks/S1-price-basis-escape.md) |
+| S1 proposal 2 | 2 | 0.3.0 | Hold (reading B) | n/a | [S1](attacks/S1-price-basis-escape.md) |
+
+Cross-model, both proposals: 6 of 6 runs gave the reading B result on 0.3.0. On 0.2.2 the three tiers split (A, B, C). See [cross-model/README.md](cross-model/README.md).
+
+### Fixture checks on 0.3.0
+
+Each fixture ran once, in one model family.
+
+| Fixture | Expected | Result |
+|---|---|---|
+| 06 playable ad | Performance | Pass. Note 9 did not apply (an install is the performance line's own price basis). |
+| 20 gaming attention line | Placed | Pass. Note 9 did not apply (the price is not counted on attention). |
+| 21 cross-media attention line | Not a boundary | Pass |
+| 23 3D billboard unit | Placed in display | Pass |
+| 25 billboard per player-minute | Not a boundary | Pass |
+| 26 residency per player-minute | Unit unplaced, no route | Pass after a fixture fix. The first input did not state the flat creative. The judge correctly did not supply it. The input now says "You supply one flat design." |
+
+A second set of eight fixtures was chosen as the ones most likely to change with note 9 (price basis, attention, unit, presence). Each ran once.
+
+| Fixture | Expected | Result |
+|---|---|---|
+| 03 immersive formats | Display or video | Pass |
+| 08 gaming line in every plan | Placed | Pass |
+| 09 mobile-gaming line | Placed | Pass |
+| 10 in-game branded content | Not a boundary | Pass |
+| 14 offsite retail media | Display and video by format | Pass |
+| 22 branded quest | Not a boundary | Pass |
+| 11 impression counted by platforms | Not a boundary | First run: substance matched but the judge used the offer form. On 0.2.2 the judge asked which type it was. The input now begins "We propose a line built on". Rerun: Not a boundary (fails step 2, not step 3). Pass by the fixture README's rule. |
+| 12 impression counted by independent party | A boundary on paper | First run: Not a boundary on both 0.2.2 and 0.3.0, because the input never defined the event. The input now defines one. Rerun: A boundary on paper. Pass. |
+
+Fixtures 11 and 12 were not regressions. Both failed the same way on 0.2.2. The cause was the fixture input.
+
+Not run on 0.3.0: fixtures 01, 02, 04, 05, 07, 13, 15, 16, 17, 18, 19 and 24.

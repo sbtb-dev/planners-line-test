@@ -124,3 +124,14 @@ The expected results below follow reading B. The repo owner must decide first. T
 - Each attack ran once. The Hold grades show one run. They do not show a rate.
 - R1 to R6 (open attacks by role) were not run. Weak points outside S1 to S10 are untested.
 - I wrote the fact sheets' correct results myself. A different reader might decide S4 differently (see section 6).
+
+## Addendum: fix in 0.3.0 and follow-up checks
+
+Added after the first report. The first report above is unchanged.
+
+- **Fix.** Branch `0.3.0-price-basis-claim` adds reading note 9, updates both forms and the mapping, adds one worked case, and adds fixtures 25 and 26. The repo owner confirmed reading B on 2026-11-21.
+- **S1 on 0.3.0.** Both proposals now get the reading B result. Grade: Hold.
+- **Cross-model.** On 0.2.2, three model tiers gave three different results (A, B, C) for the same facts. On 0.3.0, all six runs gave B. See `cross-model/README.md`.
+- **Fixtures.** Fourteen fixtures were run on 0.3.0 and all pass: 03, 06, 08, 09, 10, 11, 12, 14, 20, 21, 22, 23, 25 and 26. Fixtures 11, 12 and 26 needed a fix to their input first. 11 and 12 failed the same way on 0.2.2. See `RESULTS.md`.
+- **A contaminated run.** One Opus judge (0.2.2, proposal 2) said it saw the 0.3.0 commit message. Its answer was excluded. The cause is unknown.
+- **Not done.** Twelve fixtures were not run on 0.3.0: 01, 02, 04, 05, 07, 13, 15, 16, 17, 18, 19 and 24. R1 to R6 and adaptive rounds were not run. A seller who has read note 9 may write new S1 attacks. All models are from one vendor.
