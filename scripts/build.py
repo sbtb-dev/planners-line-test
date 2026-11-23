@@ -14,6 +14,7 @@ Standard library only. No network. Running it twice changes no file.
 """
 import hashlib
 import importlib.util
+import json
 import os
 import re
 import subprocess
@@ -292,6 +293,37 @@ def build_zip(version):
     return out
 
 
+def build_plugin_zip(version):
+    """A second zip for hosts that load plugins (ChatGPT, Codex). It holds the same
+    skill files under skills/<name>/ and a plugin manifest in .codex-plugin/ and
+    .claude-plugin/. The Claude.ai zip stays as it is."""
+    out = path("dist/%s-%s-plugin.zip" % (NAME, version))
+    manifest = json.dumps({
+        "name": NAME,
+        "version": version,
+        "description": "Places an offer sold on a label such as gaming in a media-plan line, "
+                       "or tests a proposed line. Cites IDs, lists facts to confirm. "
+                       "Does not price, recommend, or rate sellers.",
+        "license": "CC-BY-4.0",
+        "skills": "./skills/",
+    }, indent=2) + "\n"
+    commit = git_commit()
+    entries = {}
+    for rel in skill_files():
+        with open(os.path.join(SKILL, *rel.split("/")), "rb") as handle:
+            entries["skills/%s/%s" % (NAME, rel)] = handle.read()
+    entries["skills/%s/MANIFEST.txt" % NAME] = manifest_text(version, commit).encode("utf-8")
+    entries[".codex-plugin/plugin.json"] = manifest.encode("utf-8")
+    entries[".claude-plugin/plugin.json"] = manifest.encode("utf-8")
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as archive:
+        for name in sorted(entries):
+            info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            archive.writestr(info, entries[name])
+    return out
+
+
 # Main ---------------------------------------------------------------------------
 
 def main():
@@ -313,6 +345,7 @@ def main():
     write("skill/planners-line-test/MANIFEST.txt", manifest_text(version))
     print("6. writing the zip")
     out = build_zip(version)
+    build_plugin_zip(version)
     print("7. running scripts/test_check.py")
     env = dict(os.environ, PYTHONDONTWRITEBYTECODE="1")
     result = subprocess.run([sys.executable, "-B", path("scripts/test_check.py")], cwd=ROOT, env=env)
