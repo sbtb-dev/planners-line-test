@@ -9,8 +9,7 @@
 ## Expected result
 
 **A boundary on paper** (F-5), by the record route.
-- The standard units are **Placed** in display (notes 2 and 7, N-2 and N-7).
-- The new unit is display with a different price basis (note 9, N-9). The record route is stated.
+- The price basis of the new unit is a follow-up, counted by the seller on its own surface. It differs from the price basis of the standard units (note 9, N-9). The record route is stated.
 - R-1 to R-4 are met. Only the brand changes. The slot, the unit, and the position stay the same.
 - In practice: the verifier's records show a difference from the control.
 

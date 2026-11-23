@@ -6,6 +6,26 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.5.2 — 2026-11-23
+
+Reason: to close a gap that three models showed on fixture 29 in runs of 0.5.1. One model placed the unit in performance. One stopped at F-1 and asked for the format. One used note 9 to say that a booked appointment is "not a standard price basis," sent the unit to step 2, and returned Not a boundary. The text did not say that an outcome price basis places a unit in performance whatever its format. Each change and its reason:
+
+- **Reading note 9 (N-9).** New sentences: a price counted on an outcome on the buyer's side, by a party that is not the host, is the performance price basis. It places the unit in performance, whatever the format. Note 9 does not apply. The performance line is defined by its price basis (applied cases), so the format does not decide.
+- **Proposed-line form, step 1 (F-1).** The exception for a different price basis now has an exception of its own, with the same rule and the same citation (notes 5 and 9).
+- **Offer form.** The same exception to the exception, for an offer. The offer form had the same gap, but no fixture showed it.
+
+- **Fixtures.** New fixture 31 covers an offer priced on an outcome. The expected results of fixtures 27 and 28 no longer list the placement of the standard units. The input of each fixture did not state their format, models placed or hedged on it, and the result does not depend on it. The results of 27 and 28 do not change.
+
+R-1 to R-4 do not change. No expected result of fixtures 01 to 26 changes, and the results of 27 to 30 do not change. Fixture 06 stays Placed. Fixtures 25 and 26 stay at step 2, because a player-minute is not an outcome. Fixtures 27 and 28 are not affected, because a follow-up in the seller's own chat is not an outcome counted by another party.
+
+## 0.5.1 — 2026-11-23
+
+Reason: to close a gap that three models showed on fixture 27 in runs of 0.5.0. All three returned "A boundary on paper" for a holdout that removes the ad slot. They read "no unit" as "no brand," so they took R-1 as met. The new paragraph in C-3.2 put the slot inside the seller's surface, but the models did not connect it to R-1. This is a change to a check, so it is a minor change in kind. It adds one sentence, so it is released as a patch of 0.5.0. Each change and its reason:
+
+- **Check 3.2 (C-3.2).** One sentence added after the paragraph on the unbranded twin: a control that removes the slot or the unit changes the surface, is not a twin, and breaks R-1. R-1 to R-4 do not change.
+
+No expected result of fixtures 01 to 30 changes. Fixture 22 is the closest case, and it already fails R-1.
+
 ## 0.5.0 — 2026-11-23
 
 Reason: to close three defects in the rule's text and one gap in the skill. A seeded test used an AI-assistant ad offer. Its unit was billed per "qualified continuation," an event that the seller produces and counts in its own chat. Its control group had the ad slot removed. Three models returned "A boundary on paper." The text did not say why a comparison is needed, so models filled the gap with "a randomized holdout is a valid control." This is a change to a reading note and a check, so it is a minor change. Each change and its reason:

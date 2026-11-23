@@ -27,7 +27,7 @@ The notes do not change the rule. They say how to apply it.
 6. **Burden.** [N-6] The native line is the default. A seller that claims its venue changes the unit must show the change in the price basis.
 7. **Same unit.** [N-7] Two units are the same unit when they have the same format and the same price basis. Differences in size, placement, or context are compared within the line. A seller that claims such a difference makes a new unit carries the burden in note 6.
 8. **Measurement standards.** [N-8] A measurement standard that adapts an existing price basis to a venue does not create a new price basis. A standard that defines a different event can. The exchange check (3.1) decides which.
-9. **A price basis that is not the format's own.** [N-9] A seller can count the price of a format on a measure other than the price basis that format has in its line. The measure can be attention, time, or any other. This claims a new price basis (notes 2 and 6), whatever the seller calls it. The unit is then not the same unit (note 7), so the first sentence does not place it. Name the format. State that the price basis differs. Then apply the second sentence: the new unit needs a currency or a record. A score or a measure that only adds to a unit is a property of the delivery (note 2). Note 9 applies only when the price itself is counted on the other measure.
+9. **A price basis that is not the format's own.** [N-9] A seller can count the price of a format on a measure other than the price basis that format has in its line. The measure can be attention, time, or any other. This claims a new price basis (notes 2 and 6), whatever the seller calls it. The unit is then not the same unit (note 7), so the first sentence does not place it. Name the format. State that the price basis differs. Then apply the second sentence: the new unit needs a currency or a record. A score or a measure that only adds to a unit is a property of the delivery (note 2). Note 9 applies only when the price itself is counted on the other measure. A price counted on an outcome on the buyer's side, by a party that is not the host, is the performance price basis. It places the unit in performance, whatever the format. Note 9 does not apply. Name the format under what to confirm.
 
 ## 3. Three checks
 
@@ -67,7 +67,7 @@ A comparison has four requirements:
 
 The question to ask a seller: *"What would this number be with no brand?"*
 
-An unbranded twin is one design that meets the four requirements. It is the same surface in the same role, with no brand. Another design can also meet them, if it holds the venue constant.
+An unbranded twin is one design that meets the four requirements. It is the same surface in the same role, with no brand. Another design can also meet them, if it holds the venue constant. A control that removes the slot or the unit changes the surface. It is not a twin, and it breaks R-1.
 
 **What the check does not say.** It does not say that high attention has no brand effect. Attention may raise brand effect. The check requires the effect to be shown as a difference. It does not allow the effect to be assumed from the size of the count.
 

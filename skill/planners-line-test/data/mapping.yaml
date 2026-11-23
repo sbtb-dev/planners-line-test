@@ -1,4 +1,4 @@
-# Generated file. Do not edit by hand. Source: data/mapping.yaml. Version: 0.5.0.
+# Generated file. Do not edit by hand. Source: data/mapping.yaml. Version: 0.5.2.
 # Source of the mapping table and of all citation IDs.
 # Simple format: top-level keys "rows" and "others"; each list item starts with "  - ";
 # every value is a JSON string or a JSON list. No anchors, no other YAML features.

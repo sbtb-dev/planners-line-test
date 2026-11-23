@@ -9,8 +9,7 @@
 ## Expected result
 
 **Not a boundary** (F-3).
-- The standard units are **Placed** in display (notes 2 and 7, N-2 and N-7). They keep their line.
-- The format of the new unit is display. Its price basis differs: a follow-up, not a viewable impression (note 9, N-9). The first sentence does not place it, so the form goes to step 2.
+- The price basis of the new unit is a follow-up, counted by the seller on its own surface. It is not an outcome on the buyer's side. It differs from the price basis of the standard units (note 9, N-9). The first sentence does not place it, so the form goes to step 2.
 - The record route is stated. R-2, R-3, and R-4 are met, and a verifier is named.
 - R-1 fails. The seller produces the event on its own surface and counts it, so a comparison is needed (C-3.2). The control removes the slot. The slot is part of the seller's surface. The venue is not held constant.
 - The follow-ups are media engagement.

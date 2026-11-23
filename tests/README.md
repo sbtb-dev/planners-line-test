@@ -63,3 +63,4 @@ Run the same fixtures through the prompt. A skill and a prompt of the same versi
 | [28](cases/28-answer-unit-runner-up-control.md) | Proposed line |
 | [29](cases/29-new-seller-outcome-pricing.md) | Proposed line |
 | [30](cases/30-single-seller-independent-count.md) | Proposed line |
+| [31](cases/31-offer-outcome-price.md) | Offer |

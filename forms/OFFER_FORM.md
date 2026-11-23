@@ -13,7 +13,7 @@ Rules for the form:
 
 - Cite the ID of a mapping row, a reading note, or a scope item for every placement, for example M-10. Where a second rule decides, cite its ID too, for example SR-targeting. If none applies, write "unplaced" and say what information is missing.
 - Place each payment by what it buys, not by the name of the deal (rule, section 6.1). If a part is outside the test, write "outside the test" and cite the ID of the scope item.
-- If a part's price is counted on a measure in place of its format's own price basis, such as attention or time, name the format and say that the price basis differs. Mark the unit "unplaced" and cite N-9 (reading note 9). List under part 4 whether the seller also counts the format's own price basis. Do not move a standard creative in a slot to "a brand's presence inside play" because of its price basis.
+- If a part's price is counted on a measure in place of its format's own price basis, such as attention or time, name the format and say that the price basis differs. Mark the unit "unplaced" and cite N-9 (reading note 9). List under part 4 whether the seller also counts the format's own price basis. Exception to the exception: a price counted on an outcome on the buyer's side, by a party that is not the host, is the performance price basis. Place the part in performance, whatever its format (reading notes 5 and 9). Name the format under part 4. Do not move a standard creative in a slot to "a brand's presence inside play" because of its price basis.
 - Do not supply a unit, price basis, currency, or term that the seller did not state. List it under part 4.
 - Give no price, no recommendation, and no ranking of sellers.
 
