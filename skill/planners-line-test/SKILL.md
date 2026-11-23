@@ -3,14 +3,14 @@ name: planners-line-test
 description: Use to place an offer sold on a label such as gaming in a media-plan line, or to test a proposed line. Cites IDs, lists facts to confirm. Does not price, recommend, or rate sellers.
 license: CC-BY-4.0
 metadata:
-  version: "0.4.2"
+  version: "0.4.3"
 ---
 
 # The planner's line test
 
 This skill applies the planner's line test to an offer or to a proposed media line that is sold on a venue label or an audience label, such as "gaming." It places each item in a line, says what to compare it with, and lists what to confirm.
 
-Skill version: 0.4.2.
+Skill version: 0.4.3.
 
 ## The rules
 
@@ -37,7 +37,7 @@ The check script finds format errors. It does not show that a placement is right
 
 ```json
 {
-  "version": "0.4.2",
+  "version": "0.4.3",
   "input_type": "offer",
   "items": [
     {"item": "Onsite placements on the hub", "format": "retail media",

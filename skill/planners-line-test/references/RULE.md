@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: line-test/RULE.md. Version: 0.4.2. -->
+<!-- Generated file. Do not edit by hand. Source: line-test/RULE.md. Version: 0.4.3. -->
 
 # The planner's line test: the rule
 

@@ -6,6 +6,12 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.4.3 — 2026-11-23
+
+Reason: ChatGPT rejected the 0.4.2 plugin zip, because `.codex-plugin/plugin.json` had no `author`. The rule, the reading notes, the checks, the forms, and every mapping result do not change. Each change and its reason:
+
+- **Plugin manifests.** Both `plugin.json` files now have `author`, `homepage`, `repository`, and `keywords`. ChatGPT reports one missing field at a time, so the build now adds the other common fields at once.
+
 ## 0.4.2 — 2026-11-23
 
 Reason: ChatGPT rejected the 0.4.1 plugin zip, because `.codex-plugin/plugin.json` had no `interface` object. The rule, the reading notes, the checks, the forms, and every mapping result do not change. Each change and its reason:

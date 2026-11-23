@@ -303,7 +303,11 @@ def build_plugin_zip(version):
                    "or tests a proposed line. Cites IDs, lists facts to confirm. "
                    "Does not price, recommend, or rate sellers.")
     base = {"name": NAME, "version": version, "description": description,
-            "license": "CC-BY-4.0", "skills": "./skills/"}
+            "author": {"name": "SBTB", "url": "https://github.com/sbtb-dev"},
+            "homepage": "https://github.com/sbtb-dev/planners-line-test",
+            "repository": "https://github.com/sbtb-dev/planners-line-test",
+            "license": "CC-BY-4.0", "keywords": ["media planning", "advertising"],
+            "skills": "./skills/"}
     codex = dict(base, interface={
         "displayName": "Planner's line test",
         "shortDescription": "Place an offer sold on a label in a media-plan line.",

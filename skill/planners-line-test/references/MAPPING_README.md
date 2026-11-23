@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: mapping/README.md. Version: 0.4.2. -->
+<!-- Generated file. Do not edit by hand. Source: mapping/README.md. Version: 0.4.3. -->
 
 # The mapping: how to read it
 
