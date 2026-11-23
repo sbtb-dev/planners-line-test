@@ -14,6 +14,8 @@ Each case applies the [rule](RULE.md). Cases marked "hypothetical" are invented 
 | **A display unit priced on time** (hypothetical) | Display on an in-game object | A price per player-minute, in place of the display price basis | The unit is not placed in display (notes 7 and 9, N-7, N-9). No route is stated. See below. |
 | **A cross-media line priced on attention** | Many formats | A price per unit of attention | Not a boundary. See below. |
 | **Intrinsic in-game display** | Display on an in-game object | Viewable impressions, under a standard written for in-game objects | Placed in display (note 8, N-8), if the standard adapts the display price basis. See the mapping's section on the item with no native line. |
+| **A sponsored unit in an AI answer, priced per follow-up, with no slot in the control** (hypothetical) | Display | A price per follow-up prompt in the advertiser's category. The seller produces it in its own chat and counts it. Note 9 (N-9) sends it to step 2. | Not a boundary (F-3). The record route is stated, but the control removes the slot (C-3.2, R-1). |
+| **The same, with the runner-up in the slot** (hypothetical) | Display | The same unit. The control shows a unit of the same format, size, and position. | A boundary on paper, by the record route. See below. |
 | **Immersive media** | A brand's role inside an environment | Written in the order, read against an unbranded twin | A boundary on paper, by the record route. See the register. |
 
 ## CTV
@@ -79,8 +81,26 @@ So the line fails the exchange check (3.1, C-3.1). A buyer cannot swap 1,000 uni
 
 The IAB, IAB Tech Lab, and MRC publish counting rules for a viewable impression on an in-game object. A seller can claim that a 3D object in a world is a new unit. The format is display. The price basis is a viewable impression. Size, placement, and context are compared within the line (note 7, N-7). A standard written for in-game objects does not create a new price basis if it adapts the display price basis to the venue (note 8, N-8). Then the first sentence of the rule places the unit in display. The final in-game guidelines keep the display viewable test and add conditions for screen coverage, angle, and occlusion. The repo owner reads these as an adaptation, so the unit is placed in display. If a standard defines a different event, the exchange check (3.1, C-3.1) decides. See the mapping's section on the item with no native line.
 
+## A sponsored unit in an AI answer, priced per follow-up, with no slot in the control (hypothetical)
+
+Suppose a seller of an AI assistant sells a sponsored unit below its answers. It bills per follow-up prompt in the advertiser's product category. The seller produces the follow-up in its own chat and counts it.
+
+The format is display. The price basis is a follow-up prompt, not a viewable impression. Under note 9 (N-9), the unit is not the same unit as display. The first sentence does not place it. The second sentence applies.
+
+The seller counts the event on its own surface, so a comparison is needed (C-3.2). The order states a record route. The control removes the slot. The slot is part of the seller's surface, so the control removes part of the surface. The venue is not held constant. This breaks R-1. A random holdout does not repair this: random choice fixes who is in each group, and R-1 asks what the two groups see.
+
+The result is Not a boundary (F-3). The follow-ups are media engagement.
+
+## The same, with the runner-up in the slot (hypothetical)
+
+Suppose the control group sees a unit of the same format, size, and position. The advertiser that placed second in the auction fills it. Only the brand changes. R-1 to R-4 are met on paper.
+
+The result is A boundary on paper, by the record route. In practice, the records must show a difference from the control. The verifier reads that difference.
+
+This design is not an unbranded twin. It is another design that holds the venue constant (C-3.2).
+
 ## Immersive media
 
-This boundary is listed in the [register](../register/BOUNDARIES.md) on the same terms as any other boundary. The register gives its route and its status. This file does not describe it further.
+This boundary is listed in the [register](../register/BOUNDARIES.md) on the same terms as any other boundary. The register gives its route and its status. This file does not describe it further. An unbranded twin is one design that meets R-1. For a sold slot, a runner-up advertiser in the same slot is another design.
 
 The repo owner maintains this test and also stewards one boundary in the register. That boundary is listed on the same terms as any other.

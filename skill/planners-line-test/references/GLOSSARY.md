@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: GLOSSARY.md. Version: 0.4.3. -->
+<!-- Generated file. Do not edit by hand. Source: GLOSSARY.md. Version: 0.5.0. -->
 
 # Glossary
 
@@ -20,6 +20,7 @@ Terms are used the same way in every file.
 | **label** | A word a seller puts on an offer in place of a unit, such as "gaming." |
 | **media engagement** | What people do with the venue or the format. The venue produces it with any brand, or with none. |
 | **brand engagement** | What people do because the brand is there. |
+| **outcome** | An event on the buyer's side, such as an install, a lead, or a purchase. A party that is not the host can count it. |
 | **exposed population** | Everyone the buy reached, not only those who took part. |
 | **comparison** | A reading that sets the brand's result beside a result with the venue held constant. Only the difference is the brand's. |
 | **record** | Conditions written in the order before the buy: the unit, the exposed population, a comparison, and a verifier. |

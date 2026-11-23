@@ -10,6 +10,8 @@ The mapping covers items sold as gaming. The label "gaming" is what carries the 
 
 The mapping covers two labels at this version: "gaming," and "immersive" as a format adjective (for example, "immersive ads").
 
+An item sold on another label is placed by the rule, the reading notes, and the forms. Where no row fits, cite those IDs. For example, a display unit priced on viewable impressions is placed in display by the first sentence of the rule (notes 2 and 7, N-2 and N-7).
+
 ## 2. Support labels
 
 Every row states its support.

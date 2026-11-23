@@ -1,7 +1,7 @@
 <!-- Generated file. Do not edit by hand. -->
 # Prompt for the planner's line test, applied to gaming media
 
-Version: 0.4.3. Generated file.
+Version: 0.5.0. Generated file.
 
 Paste everything below the line into your model. Then paste the offer or the proposed line after it, marked with a label such as INPUT:.
 
@@ -50,7 +50,7 @@ The notes do not change the rule. They say how to apply it.
    - **Currency:** the same defined event, counted the same way by every seller, by a party that is not the host.
    - **Record:** conditions written in the order before the buy. The conditions state the unit, the exposed population, a comparison that separates the brand from the venue, and a verifier.
 4. **Three tests for any boundary.** [N-4] The boundary sorts items before the buy. The seller does not decide membership. A buy can fail.
-5. **Limit on price.** [N-5] A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. Only a comparison supports a price for response.
+5. **Limit on price.** [N-5] A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. A count of an outcome on the buyer's side, such as an install, a lead, or a purchase, supports a price for that outcome when a party that is not the host counts it. It does not show that the brand caused the outcome. Only a comparison supports a price for the brand's effect.
 6. **Burden.** [N-6] The native line is the default. A seller that claims its venue changes the unit must show the change in the price basis.
 7. **Same unit.** [N-7] Two units are the same unit when they have the same format and the same price basis. Differences in size, placement, or context are compared within the line. A seller that claims such a difference makes a new unit carries the burden in note 6.
 8. **Measurement standards.** [N-8] A measurement standard that adapts an existing price basis to a venue does not create a new price basis. A standard that defines a different event can. The exchange check (3.1) decides which.
@@ -64,9 +64,13 @@ Agreement on a name is not agreement on a unit.
 
 Ask: can a buyer swap 1,000 from seller A for 1,000 from seller B and expect the same thing? If not, the count is not a currency yet.
 
+One seller is enough on paper when three things are true: the proposal defines the event, a party that is not the host counts it, and any other seller can count the same event the same way. In practice, the exchange check needs a second seller.
+
 An impression is a way of counting. It is not a unit. Display, video, and out-of-home each count a different defined thing. All three use the word "impression."
 
 ### 3.2 The comparison check (record route) [C-3.2]
+
+A comparison is needed when the seller produces the event on its own surface and counts it. The venue then produces the event with any brand, or with none, and the seller is the one that counts it. The seller's surface is everything the seller supplies: the world, the page, the slot, and the unit in it. An outcome on the buyer's side, counted by a party that is not the host, needs no comparison to be a price basis (note 5, N-5). It does not show the brand's effect.
 
 A count at a branded surface holds two things:
 
@@ -139,6 +143,8 @@ The mapping covers items sold as gaming. The label "gaming" is what carries the 
 > An offer is in scope when it is sold on a venue label or an audience label in place of a unit.
 
 The mapping covers two labels at this version: "gaming," and "immersive" as a format adjective (for example, "immersive ads").
+
+An item sold on another label is placed by the rule, the reading notes, and the forms. Where no row fits, cite those IDs. For example, a display unit priced on viewable impressions is placed in display by the first sentence of the rule (notes 2 and 7, N-2 and N-7).
 
 ## 2. Support labels
 
@@ -339,7 +345,7 @@ Work the steps in order. Stop at the first step that gives a result.
 |---|---|
 | F-1 | Do the units already have a line (first sentence of the rule)? If yes: **Placed.** Exception: if the proposal counts its price on a measure in place of the format's own price basis, such as attention or time, it claims a new price basis (reading notes 2, 6, and 9). Its units are then not the same units. Name the format and say that the price basis differs. Go to step 2 (F-2). A line named for a venue or an audience, such as a gaming line or a mobile-gaming line, holds units that already have lines. Place each unit in its own line. The result is **Placed**. A claim of higher attention does not change this (reading note 2). A brand's presence inside play is the exception, because it has no native line (mapping, M-27). It goes to step 2 (F-2). Cite the ID of each reading note and mapping row that you use. |
 | F-2 | Does the proposal state a route: a currency or a record? If no: **Not a boundary.** Name what is missing. |
-| F-3 | Currency route: does it pass the exchange check, with a counter that is not the host? Record route: does the comparison meet the four requirements? |
+| F-3 | Currency route: does it pass the exchange check, with a counter that is not the host? A single seller can pass on paper if the conditions in check 3.1 (C-3.1) are met. Record route: does the comparison meet the four requirements? |
 | F-4 | Does the boundary sort items before the buy? Does someone other than the seller decide membership? Can a buy fail? |
 | F-5 | If steps 2 to 4 (F-2 to F-4) pass: **A boundary on paper.** State what must be shown in practice. |
 

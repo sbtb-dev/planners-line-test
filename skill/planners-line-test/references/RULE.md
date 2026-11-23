@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: line-test/RULE.md. Version: 0.4.3. -->
+<!-- Generated file. Do not edit by hand. Source: line-test/RULE.md. Version: 0.5.0. -->
 
 # The planner's line test: the rule
 
@@ -25,7 +25,7 @@ The notes do not change the rule. They say how to apply it.
    - **Currency:** the same defined event, counted the same way by every seller, by a party that is not the host.
    - **Record:** conditions written in the order before the buy. The conditions state the unit, the exposed population, a comparison that separates the brand from the venue, and a verifier.
 4. **Three tests for any boundary.** [N-4] The boundary sorts items before the buy. The seller does not decide membership. A buy can fail.
-5. **Limit on price.** [N-5] A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. Only a comparison supports a price for response.
+5. **Limit on price.** [N-5] A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. A count of an outcome on the buyer's side, such as an install, a lead, or a purchase, supports a price for that outcome when a party that is not the host counts it. It does not show that the brand caused the outcome. Only a comparison supports a price for the brand's effect.
 6. **Burden.** [N-6] The native line is the default. A seller that claims its venue changes the unit must show the change in the price basis.
 7. **Same unit.** [N-7] Two units are the same unit when they have the same format and the same price basis. Differences in size, placement, or context are compared within the line. A seller that claims such a difference makes a new unit carries the burden in note 6.
 8. **Measurement standards.** [N-8] A measurement standard that adapts an existing price basis to a venue does not create a new price basis. A standard that defines a different event can. The exchange check (3.1) decides which.
@@ -39,9 +39,13 @@ Agreement on a name is not agreement on a unit.
 
 Ask: can a buyer swap 1,000 from seller A for 1,000 from seller B and expect the same thing? If not, the count is not a currency yet.
 
+One seller is enough on paper when three things are true: the proposal defines the event, a party that is not the host counts it, and any other seller can count the same event the same way. In practice, the exchange check needs a second seller.
+
 An impression is a way of counting. It is not a unit. Display, video, and out-of-home each count a different defined thing. All three use the word "impression."
 
 ### 3.2 The comparison check (record route) [C-3.2]
+
+A comparison is needed when the seller produces the event on its own surface and counts it. The venue then produces the event with any brand, or with none, and the seller is the one that counts it. The seller's surface is everything the seller supplies: the world, the page, the slot, and the unit in it. An outcome on the buyer's side, counted by a party that is not the host, needs no comparison to be a price basis (note 5, N-5). It does not show the brand's effect.
 
 A count at a branded surface holds two things:
 

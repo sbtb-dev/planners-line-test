@@ -6,6 +6,24 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.5.0 — 2026-11-23
+
+Reason: to close three defects in the rule's text and one gap in the skill. A seeded test used an AI-assistant ad offer. Its unit was billed per "qualified continuation," an event that the seller produces and counts in its own chat. Its control group had the ad slot removed. Three models returned "A boundary on paper." The text did not say why a comparison is needed, so models filled the gap with "a randomized holdout is a valid control." This is a change to a reading note and a check, so it is a minor change. Each change and its reason:
+
+- **Reading note 5 (N-5).** The note said "Only a comparison supports a price for response." Read literally, this also rejected the performance line, which prices actions with no comparison. Performance stayed only because existing lines are not re-examined (rule, section 5). New units then faced a stricter bar than existing lines. The note now says that a count of an outcome on the buyer's side, counted by a party that is not the host, supports a price for that outcome. It does not show that the brand caused the outcome. Only a comparison supports a price for the brand's effect. The use of N-5 to limit an exposure price does not change (cases 12 and 21, and the worked cases).
+- **Check 3.2 (C-3.2).** A new first paragraph says why a comparison is needed: the seller produces the event on its own surface and counts it. It defines the seller's surface as everything the seller supplies, including the slot. It says that an outcome on the buyer's side, counted by a party that is not the host, needs no comparison.
+- **Check 3.1 (C-3.1).** New text for a single seller. One seller is enough on paper when the proposal defines the event, a party that is not the host counts it, and any other seller can count the same event the same way. In practice, the exchange check needs a second seller.
+- **R-1 does not change.** R-1 already says that the surface is the same and that only the brand changes. Once C-3.2 says what the seller's surface is, R-1 decides the case of a removed slot. The slot case is in the worked cases and in two fixtures, not in R-1. R-1 to R-4 are unchanged.
+- **Proposed-line form, step 3 (F-3).** One sentence added to the currency route: a single seller can pass on paper if the conditions in C-3.1 are met. The record route does not change.
+- **Glossary.** New term: outcome.
+- **Mapping README, section 1.** An item sold on another label is placed by the rule, the reading notes, and the forms. Before, the skill had no fallback where no row fit, and a model could mark a standard unit "unplaced: no row." The README says the skill applies the rule outside gaming.
+- **Skill, `SKILL.md`, step 4.** If no row fits, place the item by the first sentence of the rule, and cite the notes and F-1. Do not mark an item unplaced only because no row fits. The version strings are 0.5.0.
+- **Worked cases.** Two new hypothetical cases: a sponsored unit in an AI answer priced per follow-up, with no slot in the control (Not a boundary), and the same with the runner-up in the slot (A boundary on paper). The "Immersive media" section says that a runner-up advertiser in the same slot is another design that meets R-1.
+- **Fixtures.** Four new fixtures (27 to 30) cover a holdout that removes the slot, a runner-up control, an outcome price with no comparison, and a single seller with an independent count.
+- **Issue template.** "Propose a boundary" asks a sole seller whether the definition is open to other sellers.
+
+No existing expected result changes. Each of fixtures 01 to 26 was checked against the new text. Cases 11, 12, 20, 21, 25, and 26, which use N-5, C-3.1, or N-9, give the same result.
+
 ## 0.4.3 — 2026-11-23
 
 Reason: ChatGPT rejected the 0.4.2 plugin zip, because `.codex-plugin/plugin.json` had no `author`. The rule, the reading notes, the checks, the forms, and every mapping result do not change. Each change and its reason:

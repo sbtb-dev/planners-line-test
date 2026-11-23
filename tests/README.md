@@ -59,3 +59,7 @@ Run the same fixtures through the prompt. A skill and a prompt of the same versi
 | [24](cases/24-brand-owned-game.md) | Offer |
 | [25](cases/25-billboard-per-player-minute.md) | Proposed line |
 | [26](cases/26-residency-per-player-minute.md) | Offer |
+| [27](cases/27-answer-unit-no-slot-holdout.md) | Proposed line |
+| [28](cases/28-answer-unit-runner-up-control.md) | Proposed line |
+| [29](cases/29-new-seller-outcome-pricing.md) | Proposed line |
+| [30](cases/30-single-seller-independent-count.md) | Proposed line |

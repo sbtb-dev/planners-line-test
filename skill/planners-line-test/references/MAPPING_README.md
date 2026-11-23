@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: mapping/README.md. Version: 0.4.3. -->
+<!-- Generated file. Do not edit by hand. Source: mapping/README.md. Version: 0.5.0. -->
 
 # The mapping: how to read it
 
@@ -11,6 +11,8 @@ The mapping covers items sold as gaming. The label "gaming" is what carries the 
 > An offer is in scope when it is sold on a venue label or an audience label in place of a unit.
 
 The mapping covers two labels at this version: "gaming," and "immersive" as a format adjective (for example, "immersive ads").
+
+An item sold on another label is placed by the rule, the reading notes, and the forms. Where no row fits, cite those IDs. For example, a display unit priced on viewable impressions is placed in display by the first sentence of the rule (notes 2 and 7, N-2 and N-7).
 
 ## 2. Support labels
 
