@@ -6,6 +6,13 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.4.1 — 2026-11-23
+
+Reason: ChatGPT rejected the Claude.ai zip. It needs a plugin layout with `skills/*/SKILL.md` or a plugin manifest. The rule, the reading notes, the checks, the forms, and every mapping result do not change. Each change and its reason:
+
+- **Build.** `scripts/build.sh` now also writes `dist/planners-line-test-<version>-plugin.zip`. It holds the same skill files under `skills/planners-line-test/`, with `plugin.json` in `.codex-plugin/` and `.claude-plugin/`. The Claude.ai zip does not change.
+- **README.** New section for ChatGPT and other hosts that load plugins.
+
 ## 0.4.0 — 2026-11-22
 
 Reason: to package the line test as an Agent Skill that runs on hosted platforms with no backend, and to let an answer cite a stable ID. The rule, the reading notes, the checks, the scope section, the forms, and every mapping result do not change. The way answers cite changes, and contributors now edit a data file. So this is a minor change. Each change and its reason:

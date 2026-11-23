@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: prompt/INSTRUCTIONS.md. Version: 0.4.0. -->
+<!-- Generated file. Do not edit by hand. Source: prompt/INSTRUCTIONS.md. Version: 0.4.1. -->
 
 # Instructions
 
