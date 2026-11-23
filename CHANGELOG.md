@@ -6,6 +6,13 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.4.2 — 2026-11-23
+
+Reason: ChatGPT rejected the 0.4.1 plugin zip, because `.codex-plugin/plugin.json` had no `interface` object. The rule, the reading notes, the checks, the forms, and every mapping result do not change. Each change and its reason:
+
+- **Plugin manifest.** `.codex-plugin/plugin.json` now has an `interface` object with `displayName`, `shortDescription`, `longDescription`, `developerName`, `category`, and `capabilities`. `.claude-plugin/plugin.json` does not have it.
+- **Zip names.** The two zips now say what they are for: `planners-line-test-<version>-claude-skill.zip` (Claude.ai) and `planners-line-test-<version>-chatgpt-plugin.zip` (ChatGPT). Before, one was `<version>.zip` and one was `<version>-plugin.zip`.
+
 ## 0.4.1 — 2026-11-23
 
 Reason: ChatGPT rejected the Claude.ai zip. It needs a plugin layout with `skills/*/SKILL.md` or a plugin manifest. The rule, the reading notes, the checks, the forms, and every mapping result do not change. Each change and its reason:

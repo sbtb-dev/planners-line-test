@@ -116,14 +116,14 @@ The folder `skill/planners-line-test/` is an [Agent Skill](https://agentskills.i
 
 **Claude.ai**
 
-1. Get the zip `planners-line-test-<version>.zip` from the GitHub release. Or run `scripts/build.sh` and take it from `dist/`.
+1. Get the zip `planners-line-test-<version>-claude-skill.zip` from the GitHub release. Or run `scripts/build.sh` and take it from `dist/`.
 2. Open Settings > Capabilities. Turn on code execution ("Create and edit files" in newer layouts). Claude.ai needs it for skills.
 3. Open Customize > Skills (claude.ai/customize/skills). Click "+", then "Create skill", then "Upload a skill". Upload the zip. The zip has the folder `planners-line-test/` at its root.
 4. On a Team or Enterprise plan, an owner must allow skills and code execution first.
 
 **ChatGPT** (and other hosts that load plugins)
 
-Use `planners-line-test-<version>-plugin.zip` from `dist/` or the release. It holds the same skill files under `skills/planners-line-test/`, with a plugin manifest in `.codex-plugin/plugin.json`. Do not upload the Claude.ai zip there. ChatGPT rejects it, because it has no `skills/*/SKILL.md` path.
+Use `planners-line-test-<version>-chatgpt-plugin.zip` from `dist/` or the release. It holds the same skill files under `skills/planners-line-test/`, with a plugin manifest in `.codex-plugin/plugin.json`. Do not upload the Claude.ai zip there. ChatGPT rejects it, because it has no `skills/*/SKILL.md` path.
 
 **Claude Code**
 

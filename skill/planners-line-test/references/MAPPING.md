@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: mapping/MAPPING.md. Version: 0.4.1. -->
+<!-- Generated file. Do not edit by hand. Source: mapping/MAPPING.md. Version: 0.4.2. -->
 
 # The mapping
 

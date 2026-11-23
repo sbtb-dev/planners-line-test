@@ -7,7 +7,8 @@ Run it through scripts/build.sh. Steps, in order:
 3. Build prompt/PROMPT.md.
 4. Copy the source files into skill/planners-line-test/ (references/ and data/).
 5. Write skill/planners-line-test/MANIFEST.txt.
-6. Write dist/planners-line-test-<VERSION>.zip.
+6. Write dist/planners-line-test-<VERSION>-claude-skill.zip
+   and dist/planners-line-test-<VERSION>-chatgpt-plugin.zip.
 7. Run scripts/test_check.py.
 
 Standard library only. No network. Running it twice changes no file.
@@ -274,7 +275,7 @@ def build_zip(version):
     """The zip is deterministic: sorted entries, a fixed time stamp. Its manifest also
     names the commit the build came from. The committed manifest does not, because
     a commit cannot hold its own hash."""
-    out = path("dist/%s-%s.zip" % (NAME, version))
+    out = path("dist/%s-%s-claude-skill.zip" % (NAME, version))
     os.makedirs(os.path.dirname(out), exist_ok=True)
     members = [(rel, None) for rel in skill_files()]
     commit = git_commit()
@@ -297,24 +298,30 @@ def build_plugin_zip(version):
     """A second zip for hosts that load plugins (ChatGPT, Codex). It holds the same
     skill files under skills/<name>/ and a plugin manifest in .codex-plugin/ and
     .claude-plugin/. The Claude.ai zip stays as it is."""
-    out = path("dist/%s-%s-plugin.zip" % (NAME, version))
-    manifest = json.dumps({
-        "name": NAME,
-        "version": version,
-        "description": "Places an offer sold on a label such as gaming in a media-plan line, "
-                       "or tests a proposed line. Cites IDs, lists facts to confirm. "
-                       "Does not price, recommend, or rate sellers.",
-        "license": "CC-BY-4.0",
-        "skills": "./skills/",
-    }, indent=2) + "\n"
+    out = path("dist/%s-%s-chatgpt-plugin.zip" % (NAME, version))
+    description = ("Places an offer sold on a label such as gaming in a media-plan line, "
+                   "or tests a proposed line. Cites IDs, lists facts to confirm. "
+                   "Does not price, recommend, or rate sellers.")
+    base = {"name": NAME, "version": version, "description": description,
+            "license": "CC-BY-4.0", "skills": "./skills/"}
+    codex = dict(base, interface={
+        "displayName": "Planner's line test",
+        "shortDescription": "Place an offer sold on a label in a media-plan line.",
+        "longDescription": description,
+        "developerName": "SBTB",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+    })
+    codex_text = json.dumps(codex, indent=2) + "\n"
+    claude_text = json.dumps(base, indent=2) + "\n"
     commit = git_commit()
     entries = {}
     for rel in skill_files():
         with open(os.path.join(SKILL, *rel.split("/")), "rb") as handle:
             entries["skills/%s/%s" % (NAME, rel)] = handle.read()
     entries["skills/%s/MANIFEST.txt" % NAME] = manifest_text(version, commit).encode("utf-8")
-    entries[".codex-plugin/plugin.json"] = manifest.encode("utf-8")
-    entries[".claude-plugin/plugin.json"] = manifest.encode("utf-8")
+    entries[".codex-plugin/plugin.json"] = codex_text.encode("utf-8")
+    entries[".claude-plugin/plugin.json"] = claude_text.encode("utf-8")
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as archive:
         for name in sorted(entries):
             info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
