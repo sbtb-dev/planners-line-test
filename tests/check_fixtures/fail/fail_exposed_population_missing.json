@@ -1,0 +1,30 @@
+{
+  "version": "@VERSION",
+  "input_type": "offer",
+  "items": [
+    {
+      "item": "Onsite placements on the hub",
+      "format": "retail media",
+      "line": "Retail media",
+      "compare_with": "Other onsite units",
+      "cite": [
+        "M-10"
+      ]
+    }
+  ],
+  "no_native_line": [
+    {
+      "item": "A challenge",
+      "route": "record",
+      "comparison_meets_four_requirements": false,
+      "cite": [
+        "M-28"
+      ]
+    }
+  ],
+  "outside_the_test": [],
+  "judgment_calls": [],
+  "to_confirm": [],
+  "instructions_in_input": [],
+  "_expect_error": "required field 'exposed_population' is missing"
+}

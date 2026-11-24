@@ -6,6 +6,53 @@ This repository uses semantic versions.
 - A new mapping row is a patch.
 - Every change gets a version and a stated reason.
 
+## 0.6.0 — 2026-11-23
+
+Reason: a run of 0.5.2 on an Overwolf offer found three gaps, and two weaknesses in the process. Overwolf serves ads in its own overlay, on top of games that other companies run. The glossary defined the host as "the party that runs the venue," so the run took Overwolf as the host of one party's venue, and the count of Fortnite installs by Overwolf looked like a count by "a party that is not the host" (N-5). That defeats the purpose of the rule. The run also placed a brand's challenge by judgment, and it did not say so. The change to the definition of "host" can change results, so this is a minor version. Each change and its reason:
+
+**Change A: the definition of host**
+
+- **Glossary.** The host is any party that runs the venue, serves or sells the ad, or is paid on the buy. A venue can have more than one host. A count by any host is a host count. The entries for price basis, currency, outcome, and verifier say "a host."
+- **Reading note 10 (N-10), new.** More than one host. Where the rule asks for "a party that is not the host," the party must be none of the hosts. It applies to the currency, outcomes, the verifier, and the performance exception.
+- **Citations of N-10** in N-3, N-5, N-9, C-3.1, C-3.2, the in-practice row of section 5, F-1, F-3, the offer form, the contributing guide, and the "Propose a boundary" template.
+- **Mapping.** A note under the table: M-02 sold on top of another party's game has two hosts.
+
+**Change B: a brand's objectives inside play**
+
+- **M-28, new.** A brand's objectives inside play: challenges, quests, or achievement goals. No native line. M-27 is not widened. The mapping README (new section 3a) and the offer form say that M-28 is treated like M-27: it goes under `no_native_line`, it reports its route, and engagement counts are media engagement. A reward given only to players who take part is a second change, and it breaks R-1. Step F-1 and instruction 4 name M-28 next to M-27.
+
+**Change C: rewards**
+
+- **Reading note 11 (N-11), new.** Rewards. An unbranded reward for a standard unit is a term. A branded reward item granted inside play is a separate thing bought (M-27). A code or an entry is a promotion (M-16). A price counted on the time or access that a reward grants applies N-9. Every answer lists who grants the reward. "Rewards" is added to the terms in N-2 and in the glossary.
+
+**Change D: judgment calls**
+
+- **`judgment_calls`, new required answer field.** Each entry has `item`, `gap`, `reading`, and `cite`. New instruction 12, a fifth part of the offer form, and a list in the proposed-line form.
+- **Check script.** The field is required. Every cite must exist and be active. A placed item or a `no_native_line` entry that cites no mapping row needs a judgment call with the same `item`.
+
+**Change E: required fields for the terms that decide results**
+
+- **`hosts`, `counter`, `price_basis`, `exposed_population`, new.** When each is required is in `SKILL.md`. New instruction 11. The check script reports an item placed in performance on a count by a host or with no stated counter, and a currency route counted by a host.
+- The check script ignores fields whose names start with `_`.
+
+**Change F: tests**
+
+- `tests/run_check_tests.py` and `tests/check_fixtures/` (pass and fail). The build runs the runner.
+- Five placement cases, each with `input.md` and `expected.md` (read by a person), and `scripts/compare_case.py`. Only four load-bearing values are pinned in `expected.json`, in two cases. Every expected value is `draft`. The case `overwolf-2026-11` also has `source.md` and `answer_example.json`.
+- The ID pattern in `scripts/build.py` now reads reading notes of two digits. Before, `N-10` would not have been checked.
+- Instruction 11 of the instructions is now instruction 13. `SKILL.md` says so.
+
+**Existing results that the new definition of host can change.** The glossary now counts any party that serves the ad, sells it, or is paid on the buy as a host. A count by such a party is not an outside count.
+
+- **M-18** (install offers, offerwalls, shoppable links). Performance holds only if the counter is none of the hosts. A seller that counts its own installs is a host. The placement can change.
+- **M-06 and SR-price-basis** (a playable bought per install), and **fixture 06**. The input does not name the counter. Performance now needs a counter that is none of the hosts. The expected result of fixture 06 has a note.
+- **M-19** (promoted listings, by price basis). The same condition applies if the price basis is an outcome. Fixture 19 does not change, because its price basis is not stated.
+- **N-5, N-9, F-1, and F-3**, where they read "a party that is not the host." The result changes only where the counter is a second host, such as the seller of an overlay on top of another party's game.
+- **Fixtures 12, 27, 28, and 30** name an independent counter or verifier. Their results do not change. A counter or verifier paid on the buy is now a host, and these inputs do not say who pays the firm. A planner should confirm that.
+- **No change:** M-01 to M-05, M-07 to M-17, M-20 to M-27 (M-02 gets a note only); fixtures 01 to 05, 07 to 11, 13 to 18, 20 to 26, 29, and 31. In 29 and 31, the advertiser counts. The advertiser is the buyer, not a host. In 11, 25, and 26, a host already counts.
+
+A check of 0.5.x answers: the check script now requires `judgment_calls`, so an answer from 0.5.x does not pass.
+
 ## 0.5.2 — 2026-11-23
 
 Reason: to close a gap that three models showed on fixture 29 in runs of 0.5.1. One model placed the unit in performance. One stopped at F-1 and asked for the format. One used note 9 to say that a booked appointment is "not a standard price basis," sent the unit to step 2, and returned Not a boundary. The text did not say that an outcome price basis places a unit in performance whatever its format. Each change and its reason:

@@ -1,0 +1,194 @@
+{
+  "version": "0.6.0",
+  "input_type": "offer",
+  "items": [
+    {
+      "item": "Standard display in Overwolf's overlay and companion apps (standard display)",
+      "format": "display",
+      "line": "Display",
+      "compare_with": "Other display units priced on viewable impressions",
+      "hosts": [
+        "Overwolf",
+        "game publisher"
+      ],
+      "counter": "not stated",
+      "cite": [
+        "M-02",
+        "N-7",
+        "N-10"
+      ]
+    },
+    {
+      "item": "Standard video in the same placements (standard video)",
+      "format": "video",
+      "line": "Video",
+      "compare_with": "Other video units priced on completed views",
+      "hosts": [
+        "Overwolf",
+        "game publisher"
+      ],
+      "counter": "not stated",
+      "cite": [
+        "M-03",
+        "N-10"
+      ]
+    },
+    {
+      "item": "Rewarded video with in-game rewards for achievements",
+      "format": "video",
+      "line": "Video",
+      "compare_with": "Other rewarded video, on completed views",
+      "cite": [
+        "M-03",
+        "N-11",
+        "N-2"
+      ]
+    },
+    {
+      "item": "Moment-triggered messages, such as a message on screen at a kill",
+      "format": "display or video",
+      "line": "Display or video",
+      "compare_with": "The matching line's unit, by the creative format",
+      "cite": [
+        "M-02",
+        "M-03",
+        "N-2"
+      ]
+    },
+    {
+      "item": "Takeovers",
+      "format": "display",
+      "line": "Display",
+      "compare_with": "Other display units priced on viewable impressions",
+      "cite": [
+        "M-02",
+        "N-7"
+      ]
+    },
+    {
+      "item": "Skins",
+      "format": "not stated",
+      "unplaced": true,
+      "reason": "The seller does not say whether a skin is ad creative or an in-game item.",
+      "cite": [
+        "M-27"
+      ]
+    },
+    {
+      "item": "Achievement rewards built around the brand",
+      "format": "not stated",
+      "unplaced": true,
+      "reason": "The seller does not say what the rewards are or who grants them.",
+      "cite": [
+        "N-11"
+      ]
+    },
+    {
+      "item": "Targeting on session length, time of day, hardware, and games played (targeting)",
+      "format": "not a unit",
+      "line": "Targeting on the carrying line",
+      "compare_with": "That line's other segments, on the same units",
+      "cite": [
+        "M-24",
+        "SR-targeting"
+      ]
+    },
+    {
+      "item": "Tournaments",
+      "format": "event",
+      "line": "Experiential, by parts",
+      "compare_with": "Each part separately",
+      "cite": [
+        "M-17"
+      ]
+    },
+    {
+      "item": "Epic Games acquisition buy: video and display in Overwolf apps, installs counted by Overwolf",
+      "format": "display or video",
+      "line": "Display or video",
+      "compare_with": "Display and video units on their own price bases. Not placed in the install line, because the only counter is a host.",
+      "hosts": [
+        "Overwolf",
+        "Epic Games"
+      ],
+      "counter": "Overwolf",
+      "price_basis": "not stated",
+      "cite": [
+        "M-02",
+        "M-03",
+        "N-5",
+        "N-10"
+      ]
+    },
+    {
+      "item": "Seller-supplied brand studies (brand stud: brand lift, purchase intent, consideration)",
+      "format": "service",
+      "line": "Measurement",
+      "compare_with": "Other measurement. Results are the seller's claims.",
+      "cite": [
+        "M-26"
+      ]
+    }
+  ],
+  "no_native_line": [
+    {
+      "item": "Wendy's and Takis opt-in challenge in Fortnite, Marvel Rivals, and R.E.P.O.",
+      "route": "neither",
+      "comparison_meets_four_requirements": false,
+      "hosts": [
+        "Overwolf",
+        "game publisher"
+      ],
+      "counter": "Overwolf",
+      "cite": [
+        "M-28",
+        "R-1",
+        "R-3"
+      ]
+    }
+  ],
+  "outside_the_test": [],
+  "judgment_calls": [
+    {
+      "item": "Rewarded video with in-game rewards for achievements",
+      "gap": "N-11 splits branded and unbranded rewards. The offer does not say whether a reward is branded.",
+      "reading": "The format places by M-03. The reward is treated as a term until the seller says it is a branded item.",
+      "cite": [
+        "N-11",
+        "M-03"
+      ]
+    },
+    {
+      "item": "Moment-triggered messages, such as a message on screen at a kill",
+      "gap": "The offer does not state the creative format of the message.",
+      "reading": "Display or video, by the creative. M-02 fits an overlay. M-03 fits a video creative.",
+      "cite": [
+        "M-02",
+        "M-03"
+      ]
+    },
+    {
+      "item": "Epic Games acquisition buy: video and display in Overwolf apps, installs counted by Overwolf",
+      "gap": "The glossary and N-10 do not name the party that runs the game in this case.",
+      "reading": "Overwolf serves the ads in its own apps, so it is a host. Epic Games runs Fortnite, so it is also a host. The only counter is Overwolf, a host, so the buy does not go to performance.",
+      "cite": [
+        "N-10",
+        "N-5"
+      ]
+    }
+  ],
+  "to_confirm": [
+    "Who counts impressions, views, and installs in each case. The seller names no measurement partner.",
+    "The price basis of every product. The offer names none.",
+    "The creative format of moment-triggered messages.",
+    "Whether skins are ad creative or in-game items (M-27).",
+    "What the achievement rewards are, and who grants them: the host of the game, another host, or the brand (N-11).",
+    "Whether the Epic Games buy is priced per install. If it is, ask whether a party that is not a host counts the installs (N-5, N-10).",
+    "Who runs each game in the Wendy's challenge, and who grants the unlocked rewards.",
+    "Whether a reward goes only to players who take part in the challenge. That is a second change (R-1).",
+    "Whether the offer sets one contract price for all 5,000 games. If so, ask for the price of each part (S-6.1).",
+    "The method, the baseline, and the provider of each brand study."
+  ],
+  "instructions_in_input": [],
+  "notes": "Hours of challenge play are media engagement. No comparison comes with them. Every fact in the offer is the seller's claim."
+}

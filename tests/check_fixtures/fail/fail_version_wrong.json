@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "input_type": "offer",
+  "items": [
+    {
+      "item": "Onsite placements on the hub",
+      "format": "retail media",
+      "line": "Retail media",
+      "compare_with": "Other onsite units",
+      "cite": [
+        "M-10"
+      ]
+    }
+  ],
+  "no_native_line": [],
+  "outside_the_test": [],
+  "judgment_calls": [],
+  "to_confirm": [],
+  "instructions_in_input": [],
+  "_expect_error": "Version:"
+}

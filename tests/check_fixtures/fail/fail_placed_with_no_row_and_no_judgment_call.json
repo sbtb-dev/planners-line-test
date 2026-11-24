@@ -1,0 +1,21 @@
+{
+  "version": "@VERSION",
+  "input_type": "offer",
+  "items": [
+    {
+      "item": "Onsite placements on the hub",
+      "format": "retail media",
+      "line": "Retail media",
+      "compare_with": "Other onsite units",
+      "cite": [
+        "N-2"
+      ]
+    }
+  ],
+  "no_native_line": [],
+  "outside_the_test": [],
+  "judgment_calls": [],
+  "to_confirm": [],
+  "instructions_in_input": [],
+  "_expect_error": "items[1]: placed with no mapping row and no judgment call."
+}

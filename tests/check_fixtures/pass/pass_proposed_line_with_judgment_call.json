@@ -1,0 +1,33 @@
+{
+  "version": "@VERSION",
+  "input_type": "proposed_line",
+  "items": [
+    {
+      "item": "A mobile-gaming line",
+      "format": "many",
+      "line": "Each unit in its own line",
+      "compare_with": "The same unit from other sellers",
+      "cite": [
+        "N-2"
+      ]
+    }
+  ],
+  "result": {
+    "value": "Placed",
+    "cite": [
+      "F-1"
+    ]
+  },
+  "judgment_calls": [
+    {
+      "item": "A mobile-gaming line",
+      "gap": "No mapping row names a gaming line.",
+      "reading": "The label holds units that already have lines.",
+      "cite": [
+        "F-1",
+        "N-2"
+      ]
+    }
+  ],
+  "to_confirm": []
+}

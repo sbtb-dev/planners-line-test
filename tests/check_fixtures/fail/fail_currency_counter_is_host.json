@@ -1,0 +1,35 @@
+{
+  "version": "@VERSION",
+  "input_type": "offer",
+  "items": [
+    {
+      "item": "Onsite placements on the hub",
+      "format": "retail media",
+      "line": "Retail media",
+      "compare_with": "Other onsite units",
+      "cite": [
+        "M-10"
+      ]
+    }
+  ],
+  "no_native_line": [
+    {
+      "item": "A verified impression",
+      "route": "currency",
+      "comparison_meets_four_requirements": false,
+      "hosts": [
+        "The platform"
+      ],
+      "counter": "The platform",
+      "cite": [
+        "M-27",
+        "C-3.1"
+      ]
+    }
+  ],
+  "outside_the_test": [],
+  "judgment_calls": [],
+  "to_confirm": [],
+  "instructions_in_input": [],
+  "_expect_error": "currency route on a count by a host (C-3.1, N-10)"
+}

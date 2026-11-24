@@ -9,7 +9,7 @@ Run it through scripts/build.sh. Steps, in order:
 5. Write skill/planners-line-test/MANIFEST.txt.
 6. Write dist/planners-line-test-<VERSION>-claude-skill.zip
    and dist/planners-line-test-<VERSION>-chatgpt-plugin.zip.
-7. Run scripts/test_check.py.
+7. Run scripts/test_check.py and tests/run_check_tests.py.
 
 Standard library only. No network. Running it twice changes no file.
 """
@@ -56,7 +56,7 @@ ID_SCAN_FILES = [
     "line-test/RULE.md", "line-test/APPLIED.md", "mapping/README.md",
     "mapping/MAPPING.md", "forms/OFFER_FORM.md", "forms/PROPOSED_LINE_FORM.md",
 ]
-ID_TOKEN = re.compile(r"\b(M-\d{2}|N-\d|C-\d\.\d|R-\d|S-\d\.\d|SR-[a-z]+(?:-[a-z]+)*|F-\d)\b")
+ID_TOKEN = re.compile(r"\b(M-\d{2}|N-\d+|C-\d\.\d|R-\d|S-\d\.\d|SR-[a-z]+(?:-[a-z]+)*|F-\d)\b")
 
 
 class BuildError(Exception):
@@ -357,11 +357,12 @@ def main():
     print("6. writing the zip")
     out = build_zip(version)
     build_plugin_zip(version)
-    print("7. running scripts/test_check.py")
     env = dict(os.environ, PYTHONDONTWRITEBYTECODE="1")
-    result = subprocess.run([sys.executable, "-B", path("scripts/test_check.py")], cwd=ROOT, env=env)
-    if result.returncode != 0:
-        raise BuildError("scripts/test_check.py failed")
+    for number, script in (("7", "scripts/test_check.py"), ("8", "tests/run_check_tests.py")):
+        print("%s. running %s" % (number, script))
+        result = subprocess.run([sys.executable, "-B", path(script)], cwd=ROOT, env=env)
+        if result.returncode != 0:
+            raise BuildError("%s failed" % script)
     print("built version %s: %s" % (version, os.path.relpath(out, ROOT)))
 
 

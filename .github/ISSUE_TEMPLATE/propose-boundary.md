@@ -18,7 +18,7 @@ labels: boundary
 2. Is membership kept away from the seller?
 3. Can a buy fail?
 
-**Currency route:** who counts, and is that party not the host? Does the count pass the exchange check? If you are the only seller, is the definition open so that another seller can count the same event the same way?
+**Currency route:** who counts, and is that party none of the hosts (N-10)? Does the count pass the exchange check? If you are the only seller, is the definition open so that another seller can count the same event the same way?
 
 **Record route:** how does the comparison meet the four requirements?
 

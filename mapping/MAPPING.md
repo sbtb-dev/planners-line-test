@@ -34,7 +34,10 @@ Read [the notes on scope, support labels, and second rules](README.md) first.
 | M-25 | Construction of a build | Production | Other production quotes | Extension |
 | M-26 | A seller-supplied brand study | Measurement | Other measurement. Results are the seller's claims. | Extension |
 | M-27 | **A brand's presence inside play:** branded worlds, integrations, skins, digital goods, branded games, and a brand's products or marks placed in game content | **No native line** | **The second sentence of the rule: a currency or a record** | See below |
+| M-28 | A brand's objectives inside play: challenges, quests, or achievement goals, set or scored by any party, including an overlay or companion app on top of another party's game | No native line | The second sentence of the rule: a currency or a record, as for a brand's presence inside play (M-27) | Test, after a second rule |
 <!-- END GENERATED TABLE -->
+
+**Hosts of an overlay.** M-02 (overlays and app inventory) sold on top of another party's game has two hosts: the seller of the overlay and the party that runs the game (N-10). A count by either is a host count.
 
 Two items are outside the test (rule, section 6.2, S-6.2): a fee paid to the brand for its marks to appear in a game, and the brand's share of sales of branded digital goods. Any build the brand pays for is production. Any presence is placed by the row for a brand's presence inside play (M-27).
 

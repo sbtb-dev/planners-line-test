@@ -8,7 +8,7 @@ Use the issue template "Propose a mapping row." State:
 
 1. **The unit.** What is the item, in plain words? Name its format.
 2. **The price basis.** What is the price counted on?
-3. **The currency.** If the price basis is a counted event, who counts it? Is that party not the host?
+3. **The currency.** If the price basis is a counted event, who counts it? Is that party none of the hosts? A venue can have more than one host (N-10).
 4. **The terms.** How is it bought? Terms are compared within the line. They do not change the unit.
 5. **Who else sells it.** Name at least one seller outside gaming that sells the same unit: the same format on the same price basis. Or say that none does.
 

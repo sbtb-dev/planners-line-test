@@ -1,0 +1,42 @@
+{
+  "case": "overwolf-2026-11",
+  "status": "confirmed",
+  "notes": "Only the values that the check script cannot catch are pinned. A person reads the rest against expected.md. The key result: the Epic buy must not go to performance, because the only counter is a host (N-5, N-10).",
+  "items": [
+    {
+      "item_key": "rewarded",
+      "cites": {
+        "value": [
+          "N-11"
+        ],
+        "status": "confirmed"
+      }
+    },
+    {
+      "item_key": "challenge",
+      "line": {
+        "value": "no_native_line",
+        "status": "confirmed"
+      },
+      "route": {
+        "value": "neither",
+        "status": "confirmed"
+      },
+      "cites": {
+        "value": [
+          "M-28"
+        ],
+        "status": "confirmed"
+      }
+    },
+    {
+      "item_key": "Epic",
+      "line_not": {
+        "value": [
+          "Performance"
+        ],
+        "status": "confirmed"
+      }
+    }
+  ]
+}

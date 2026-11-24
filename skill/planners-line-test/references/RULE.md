@@ -1,4 +1,4 @@
-<!-- Generated file. Do not edit by hand. Source: line-test/RULE.md. Version: 0.5.2. -->
+<!-- Generated file. Do not edit by hand. Source: line-test/RULE.md. Version: 0.6.0. -->
 
 # The planner's line test: the rule
 
@@ -20,16 +20,23 @@ The test is general. It is not specific to any one type of media. The mapping ap
 The notes do not change the rule. They say how to apply it.
 
 1. **Order.** [N-1] The first sentence applies first. The second sentence applies only to a unit the first cannot place, or to a venue that changes the unit.
-2. **Format and unit.** [N-2] A unit is a format plus its price basis: what is shown, and what the price is counted on. A new venue does not change the format. It changes the unit only if it changes the price basis. Deal terms do not change the unit. Route, timing, guarantees, fees, and bundling are deal terms, and they are compared within the line. A line can predict its terms, but a term alone does not make a new unit. Attention does not change the unit. Attention is a property of the delivery, and it is compared within the line.
+2. **Format and unit.** [N-2] A unit is a format plus its price basis: what is shown, and what the price is counted on. A new venue does not change the format. It changes the unit only if it changes the price basis. Deal terms do not change the unit. Route, timing, guarantees, fees, bundling, and rewards (N-11) are deal terms, and they are compared within the line. A line can predict its terms, but a term alone does not make a new unit. Attention does not change the unit. Attention is a property of the delivery, and it is compared within the line.
 3. **Two routes.** [N-3] A line predicts the unit, the terms, and the return in one of two ways:
-   - **Currency:** the same defined event, counted the same way by every seller, by a party that is not the host.
-   - **Record:** conditions written in the order before the buy. The conditions state the unit, the exposed population, a comparison that separates the brand from the venue, and a verifier.
+   - **Currency:** the same defined event, counted the same way by every seller, by a party that is not the host (N-10).
+   - **Record:** conditions written in the order before the buy. The conditions state the unit, the exposed population, a comparison that separates the brand from the venue, and a verifier (N-10).
 4. **Three tests for any boundary.** [N-4] The boundary sorts items before the buy. The seller does not decide membership. A buy can fail.
-5. **Limit on price.** [N-5] A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. A count of an outcome on the buyer's side, such as an install, a lead, or a purchase, supports a price for that outcome when a party that is not the host counts it. It does not show that the brand caused the outcome. Only a comparison supports a price for the brand's effect.
+5. **Limit on price.** [N-5] A line earns only what its currency or its record shows. A count of media engagement supports a price for exposure. A count of an outcome on the buyer's side, such as an install, a lead, or a purchase, supports a price for that outcome when a party that is not the host counts it (N-10). It does not show that the brand caused the outcome. Only a comparison supports a price for the brand's effect.
 6. **Burden.** [N-6] The native line is the default. A seller that claims its venue changes the unit must show the change in the price basis.
 7. **Same unit.** [N-7] Two units are the same unit when they have the same format and the same price basis. Differences in size, placement, or context are compared within the line. A seller that claims such a difference makes a new unit carries the burden in note 6.
 8. **Measurement standards.** [N-8] A measurement standard that adapts an existing price basis to a venue does not create a new price basis. A standard that defines a different event can. The exchange check (3.1) decides which.
-9. **A price basis that is not the format's own.** [N-9] A seller can count the price of a format on a measure other than the price basis that format has in its line. The measure can be attention, time, or any other. This claims a new price basis (notes 2 and 6), whatever the seller calls it. The unit is then not the same unit (note 7), so the first sentence does not place it. Name the format. State that the price basis differs. Then apply the second sentence: the new unit needs a currency or a record. A score or a measure that only adds to a unit is a property of the delivery (note 2). Note 9 applies only when the price itself is counted on the other measure. A price counted on an outcome on the buyer's side, by a party that is not the host, is the performance price basis. It places the unit in performance, whatever the format. Note 9 does not apply. Name the format under what to confirm.
+9. **A price basis that is not the format's own.** [N-9] A seller can count the price of a format on a measure other than the price basis that format has in its line. The measure can be attention, time, or any other. This claims a new price basis (notes 2 and 6), whatever the seller calls it. The unit is then not the same unit (note 7), so the first sentence does not place it. Name the format. State that the price basis differs. Then apply the second sentence: the new unit needs a currency or a record. A score or a measure that only adds to a unit is a property of the delivery (note 2). Note 9 applies only when the price itself is counted on the other measure. A price counted on an outcome on the buyer's side, by a party that is not the host (N-10), is the performance price basis. It places the unit in performance, whatever the format. Note 9 does not apply. Name the format under what to confirm.
+10. **More than one host.** [N-10] A venue can have more than one host. For example, a seller can serve ads in an overlay or a companion app on top of a game that another party runs. The seller and the party that runs the game are both hosts. Where the rule asks for "a party that is not the host," the party must be none of the hosts. This applies to the currency (N-3, C-3.1), to outcomes (N-5), to the verifier (N-3), and to the performance exception (N-9).
+11. **Rewards.** [N-11] A reward is something of value that a player gets for taking part in an ad. It can be an item, a boost, a currency, access, or a code.
+    - An unbranded reward given for a standard unit (for example, rewarded video) is a term. It is compared within the line. It does not change the unit (N-2).
+    - A branded reward item granted inside play is a separate thing bought. Place it by M-27, and place the unit that carries it in its own line (S-6.1, SR-payments).
+    - A reward that is a code or an entry is a promotion (M-16).
+    - If the price is counted on the time or the access that the reward grants, and not on the format's own price basis, apply N-9.
+    - In every case, list under "to confirm" who grants the reward: the host of the game, another host, or the brand.
 
 ## 3. Three checks
 
@@ -39,13 +46,13 @@ Agreement on a name is not agreement on a unit.
 
 Ask: can a buyer swap 1,000 from seller A for 1,000 from seller B and expect the same thing? If not, the count is not a currency yet.
 
-One seller is enough on paper when three things are true: the proposal defines the event, a party that is not the host counts it, and any other seller can count the same event the same way. In practice, the exchange check needs a second seller.
+One seller is enough on paper when three things are true: the proposal defines the event, a party that is not the host (N-10) counts it, and any other seller can count the same event the same way. In practice, the exchange check needs a second seller.
 
 An impression is a way of counting. It is not a unit. Display, video, and out-of-home each count a different defined thing. All three use the word "impression."
 
 ### 3.2 The comparison check (record route) [C-3.2]
 
-A comparison is needed when the seller produces the event on its own surface and counts it. The venue then produces the event with any brand, or with none, and the seller is the one that counts it. The seller's surface is everything the seller supplies: the world, the page, the slot, and the unit in it. An outcome on the buyer's side, counted by a party that is not the host, needs no comparison to be a price basis (note 5, N-5). It does not show the brand's effect.
+A comparison is needed when the seller produces the event on its own surface and counts it. The venue then produces the event with any brand, or with none, and the seller is the one that counts it. The seller's surface is everything the seller supplies: the world, the page, the slot, and the unit in it. An outcome on the buyer's side, counted by a party that is not the host (N-10), needs no comparison to be a price basis (note 5, N-5). It does not show the brand's effect.
 
 A count at a branded surface holds two things:
 
@@ -92,7 +99,7 @@ A description can pass only the first stage.
 | Stage | Question | Evidence |
 |---|---|---|
 | **On paper** | Does the proposal state a route, sort items before the buy, keep membership away from the seller, and allow a buy to fail? | The description |
-| **In practice** | Does a counter that is not the host count the same event across sellers? Do the records show a difference from the comparison? | Data, records, audit |
+| **In practice** | Does a counter that is not a host (N-10) count the same event across sellers? Do the records show a difference from the comparison? | Data, records, audit |
 
 Existing lines are the reference the test places units against. The test does not re-examine them. Some existing lines are organized by route or by data, not by unit. The test does not re-examine them. It also does not accept a new line on the same basis.
 

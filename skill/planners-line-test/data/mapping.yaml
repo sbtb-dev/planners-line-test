@@ -1,4 +1,4 @@
-# Generated file. Do not edit by hand. Source: data/mapping.yaml. Version: 0.5.2.
+# Generated file. Do not edit by hand. Source: data/mapping.yaml. Version: 0.6.0.
 # Source of the mapping table and of all citation IDs.
 # Simple format: top-level keys "rows" and "others"; each list item starts with "  - ";
 # every value is a JSON string or a JSON list. No anchors, no other YAML features.
@@ -221,6 +221,14 @@ rows:
     second_rules: []
     differs_from_iab: ""
     status: "active"
+  - id: "M-28"
+    sold_as: "A brand's objectives inside play: challenges, quests, or achievement goals, set or scored by any party, including an overlay or companion app on top of another party's game"
+    line: "No native line"
+    compare_on: "The second sentence of the rule: a currency or a record, as for a brand's presence inside play (M-27)"
+    support: "Test, after a second rule"
+    second_rules: []
+    differs_from_iab: ""
+    status: "active"
 others:
   - id: "N-1"
     title: "Order"
@@ -248,6 +256,12 @@ others:
     status: "active"
   - id: "N-9"
     title: "A price basis that is not the format's own"
+    status: "active"
+  - id: "N-10"
+    title: "More than one host"
+    status: "active"
+  - id: "N-11"
+    title: "Rewards"
     status: "active"
   - id: "C-3.1"
     title: "The exchange check (currency route)"

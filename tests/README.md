@@ -1,5 +1,14 @@
 # Tests
 
+There are two kinds of test.
+
+- **F1. Tests of the check script.** They run automatically. `scripts/build.sh` runs them. To run them alone: `python3 -B tests/run_check_tests.py`. The runner runs `skill/planners-line-test/scripts/check.py` on every file in [check_fixtures/](check_fixtures/). A file in `pass/` must exit 0. A file in `fail/` must exit 1 and print the message in its field `_expect_error`. The check script ignores any field whose name starts with `_`. A fixture can write `"@VERSION"` as its version. The runner then uses the current version. The repository has no CI. The build runs the runner.
+- **F2. Placement cases.** They need an answer from a model run or from a person. Each folder in [cases/](cases/) that is not a single file holds `input.md` and `expected.md`. A person reads the answer against `expected.md`. Only two cases also have `expected.json`, with the few values that the check script cannot catch: the Epic buy is not performance, the Wendy's challenge is M-28, the rewarded item cites N-11, and a count by the network is not performance. The folder `overwolf-2026-11` also holds `source.md`, and `answer_example.json`, which the 0.6.0 author wrote. Compare an answer with the expected values: `python3 scripts/compare_case.py <answer.json> <expected.json>`.
+
+Every expected value starts as draft. The owner confirms it before it counts. The four pinned values in `expected.json` are confirmed (`"status": "confirmed"`). The values in `expected.md` are drafts. After every release, run the skill on every F2 case and compare with `compare_case.py`. When a run flags a judgment call that recurs, add a case for it.
+
+The numbered files in [cases/](cases/) (01 to 31) are the older fixtures. Read the sections below for them.
+
 These fixtures check that the [prompt](../prompt/PROMPT.md) and the [skill](../skill/planners-line-test/SKILL.md) give the expected result. Each file in [cases/](cases/) has an input and an expected result. The inputs are generic. They name no company.
 
 ## How to run

@@ -33,6 +33,16 @@ Every row states its support.
 - **Payments, not deal names.** [SR-payments] Each payment is placed by what it buys (rule, section 6.1, S-6.1).
 - **Payment in kind.** [SR-in-kind] Media the brand gives as payment is listed as part of the price (rule, section 6.3, S-6.3).
 
+## 3a. A brand's objectives inside play
+
+Row M-28 covers a brand's objectives inside play: challenges, quests, or achievement goals. Any party can set or score them, including an overlay or companion app on top of another party's game. The brand's mark need not appear in game content. M-28 is treated like M-27:
+
+- It goes under `no_native_line`.
+- It reports its route: a currency, a record, or neither.
+- It labels engagement counts, such as hours of challenge play, as media engagement, unless a comparison comes with them.
+
+A reward given only to players who take part in the brand's objective is a second change, and it breaks R-1.
+
 ## 4. Each "Test, direct" row rests on a fact
 
 Each "Test, direct" row rests on a fact about how a seller sells the item. The mapping supplies the question. The planner confirms the fact with the seller.
@@ -55,7 +65,7 @@ Every mapping row, reading note, check, comparison requirement, scope item, seco
 | Item | ID | Example |
 |---|---|---|
 | Mapping row | M-01, M-02, and so on | M-10 |
-| Reading note | N-1 to N-9 | N-9 |
+| Reading note | N-1 to N-11 | N-9 |
 | Check | C-3.1 to C-3.3 | C-3.1 |
 | Comparison requirement | R-1 to R-4 | R-1 |
 | Scope item | S-6.1 to S-6.6 | S-6.6 |

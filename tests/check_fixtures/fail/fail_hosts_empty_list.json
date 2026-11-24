@@ -1,0 +1,26 @@
+{
+  "version": "@VERSION",
+  "input_type": "offer",
+  "items": [
+    {
+      "item": "Interstitials priced per install",
+      "format": "display",
+      "line": "Performance",
+      "compare_with": "Other units priced on installs",
+      "hosts": [],
+      "counter": "A mobile measurement partner",
+      "price_basis": "Installs",
+      "cite": [
+        "M-18",
+        "N-5",
+        "N-10"
+      ]
+    }
+  ],
+  "no_native_line": [],
+  "outside_the_test": [],
+  "judgment_calls": [],
+  "to_confirm": [],
+  "instructions_in_input": [],
+  "_expect_error": "'hosts' must be a non-empty list of strings"
+}
